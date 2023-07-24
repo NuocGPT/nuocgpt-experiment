@@ -1,6 +1,7 @@
 import os
 from flask import Flask, request, jsonify, render_template
 import openai
+from openai.error import ServiceUnavailableError
 from pymongo import MongoClient
 
 uri = os.environ.get("MONGODB_URI")
@@ -37,22 +38,26 @@ def home():
 
 
 def critique(chat_log):
-    messages = [chat_log[-1]]
-    messages.append({"role": "system", "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
-    print(messages)
-    response = openai.ChatCompletion.create(
-        model="gpt-4",
-        messages=messages,
-        max_tokens=1000,
-        temperature=0.7,
-        n=1,
-        stop=None
-    )
-    
-    # Extract the response text from the API response
-    print(response)
-    assistant_response = response['choices'][0]['message']["content"].strip()
-    return assistant_response 
+    try:
+        messages = [chat_log[-1]]
+        messages.append({"role": "system", "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
+        print(messages)
+        response = openai.ChatCompletion.create(
+            model="gpt-4",
+            messages=messages,
+            max_tokens=1000,
+            temperature=0.7,
+            n=1,
+            stop=None
+        )
+
+        # Extract the response text from the API response
+        print(response)
+        assistant_response = response['choices'][0]['message']["content"].strip()
+        return assistant_response
+    except ServiceUnavailableError:
+        # the critique service is not available, return the original content
+        return chat_log[-1]["content"]
 
 
 @app.route('/chat', methods=['POST'])
@@ -60,31 +65,34 @@ def chat():
     user_message = request.form.get('message')
 
     # Call the OpenAI API to get a response
-    print(user_message)
-    messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
-    response = openai.ChatCompletion.create(
-        model=MODEL,
-        messages=messages,
-        max_tokens=1000,
-        temperature=0.7,
-        n=1,
-        stop=None
-    )
-    
-    # Extract the response text from the API response
-    print(response)
-    assistant_response = response['choices'][0]['message']["content"].strip()
+    try:
+        print(user_message)
+        messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
+        response = openai.ChatCompletion.create(
+            model=MODEL,
+            messages=messages,
+            max_tokens=1000,
+            temperature=0.7,
+            n=1,
+            stop=None
+        )
 
-    messages.append({"role": "assistant", "content": assistant_response})
-    
-    critiqued_response = critique(messages)
+        # Extract the response text from the API response
+        print(response)
+        assistant_response = response['choices'][0]['message']["content"].strip()
 
-    global global_question 
-    global_question = user_message
-    global global_response
-    global_response = critiqued_response
+        messages.append({"role": "assistant", "content": assistant_response})
 
-    return render_template('index.html', response=critiqued_response)
+        critiqued_response = critique(messages)
+
+        global global_question
+        global_question = user_message
+        global global_response
+        global_response = critiqued_response
+
+        return render_template('index.html', response=critiqued_response)
+    except ServiceUnavailableError:
+        return render_template('index.html', response="I am sorry but it seems that OpenAI API is not avaiable at the current moment. Please try again later.")
 
 
 @app.route('/feedback', methods=['POST'])
