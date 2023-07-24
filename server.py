@@ -81,8 +81,10 @@ def critique(chat_log, critique_model=GPT3):
     try:
         if critique_model == GPT4:
             response = gpt4critique(chat_log)
-        else:
+        elif critique_model == GPT3:
             response = gpt3critique(chat_log)
+        else:
+            return chat_log[-1]["content"]
         return response
     except ServiceUnavailableError:
         # the critique service is not available, return the original content
@@ -116,7 +118,7 @@ def chat():
 
         messages.append({"role": "assistant", "content": assistant_response})
 
-        critiqued_response = critique(messages)
+        critiqued_response = critique(messages, "passthrough")
 
         global global_question
         global_question = user_message
