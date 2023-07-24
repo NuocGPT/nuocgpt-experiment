@@ -29,8 +29,8 @@ global_question = ""
 global_response = ""
 TOPICS = ["politics", "vietnamese history", "vietnam war"]
 SYSTEM_INSTRUCTION = f"You are NuocGPT, a conversational AI designed to answer questions about climate and water issues in Vietnam. You can only answer questions in Vietnamese or English. You will not comment or answer any questions related to these topics: {TOPICS}."
-MODEL = "gpt-3.5-turbo"
-
+GPT3 = "gpt-3.5-turbo"
+GPT4 = "gpt-4"
 
 @app.route('/')
 def home():
@@ -43,7 +43,7 @@ def critique(chat_log):
         messages.append({"role": "system", "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
         print(messages)
         response = openai.ChatCompletion.create(
-            model="gpt-4",
+            model=GPT3,
             messages=messages,
             max_tokens=1000,
             temperature=0.7,
@@ -69,7 +69,7 @@ def chat():
         print(user_message)
         messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
         response = openai.ChatCompletion.create(
-            model=MODEL,
+            model=GPT4,
             messages=messages,
             max_tokens=1000,
             temperature=0.7,
