@@ -17,7 +17,7 @@ except Exception as e:
 
 app = Flask(__name__)
 
-openai.api_key = os.environ.get("Q")
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Check if API key works
 completion = openai.Completion.create(model="text-davinci-003", prompt="Hello world")
