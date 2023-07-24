@@ -37,26 +37,56 @@ def home():
     return render_template('index.html')
 
 
-def critique(chat_log):
-    try:
-        messages = [chat_log[-1]]
-        messages.append({"role": "system", "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
-        print(messages)
-        response = openai.ChatCompletion.create(
-            model=GPT3,
-            messages=messages,
-            max_tokens=1000,
-            temperature=0.7,
-            n=1,
-            stop=None
-        )
+def gpt4critique(chat_log):
+    messages = [chat_log[-1]]
+    messages.append({"role": "system",
+                     "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
+    print(messages)
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None
+    )
 
-        # Extract the response text from the API response
-        print(response)
-        assistant_response = response['choices'][0]['message']["content"].strip()
-        return assistant_response
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response['choices'][0]['message']["content"].strip()
+    return assistant_response
+
+
+def gpt3critique(chat_log):
+    prev_response = chat_log[-1]["content"]
+    messages = [{"role": "user",
+                     "content": f"Look at the previous response from NuocGPT: {prev_response}; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."}]
+    print(messages)
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None
+    )
+
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response['choices'][0]['message']["content"].strip()
+    return assistant_response
+
+
+def critique(chat_log, critique_model=GPT3):
+    try:
+        if critique_model == GPT4:
+            response = gpt4critique(chat_log)
+        else:
+            response = gpt3critique(chat_log)
+        return response
     except ServiceUnavailableError:
         # the critique service is not available, return the original content
+        print(f"Critique model {critique_model} timed out")
         return chat_log[-1]["content"]
 
 
@@ -67,7 +97,11 @@ def chat():
     # Call the OpenAI API to get a response
     try:
         print(user_message)
-        messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
+        if user_message:
+            messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
+        else:
+            messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}]
+
         response = openai.ChatCompletion.create(
             model=GPT4,
             messages=messages,
@@ -76,7 +110,6 @@ def chat():
             n=1,
             stop=None
         )
-
         # Extract the response text from the API response
         print(response)
         assistant_response = response['choices'][0]['message']["content"].strip()
