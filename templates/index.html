@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home Page</title>
+</head>
+<body>
+    <h1>Welcome to NuocGPT!</h1>
+    <p>Ask NuocGPT a question about climate or water issues in Vietnam:</p>
+    <form action="/chat" method="POST">
+        <input type="text" name="message" />
+        <button type="submit">Submit</button>
+    </form>
+    {% if response %}
+        <h2>Response:</h2>
+        <p>{{ response }}</p>
+        <button id="likeButton">Like</button>
+        <button id="dislikeButton">Dislike</button>
+
+        <script>
+            document.getElementById("likeButton").addEventListener("click", function() {
+                console.log("Like button clicked");
+                // Send the "like" response to the server
+                sendFeedback("like");
+            });
+    
+            document.getElementById("dislikeButton").addEventListener("click", function() {
+                console.log("Dislike button clicked");
+                // Send the "dislike" response to the server
+                sendFeedback("dislike");
+            });
+    
+            function sendFeedback(reaction) {
+                // Send the data to the server using the Fetch API
+                fetch("/feedback", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/json"
+                    },
+                    body: JSON.stringify({
+                        "reaction": reaction
+                    })
+                })
+                .then(response => response.json())
+                .then(data => {
+                    console.log("Feedback sent successfully.", data);
+                })
+                .catch(error => {
+                    console.error("Error:", error);
+                });
+            }
+        </script>
+    {% endif %}    
+
+</body>
+</html>
