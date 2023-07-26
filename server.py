@@ -7,11 +7,11 @@ from pymongo import MongoClient
 uri = os.environ.get("MONGODB_URI")
 print("MongoDB URI", uri)
 cluster = MongoClient(uri)
-db = cluster['NuocDB']
+db = cluster["NuocDB"]
 collections = db.list_collection_names()
 
 try:
-    cluster.admin.command('ping')
+    cluster.admin.command("ping")
     print("Pinged your deployment. You successfully connected to MongoDB!")
 except Exception as e:
     print(e)
@@ -32,48 +32,47 @@ SYSTEM_INSTRUCTION = f"You are NuocGPT, a conversational AI designed to answer q
 GPT3 = "gpt-3.5-turbo"
 GPT4 = "gpt-4"
 
-@app.route('/')
+
+@app.route("/")
 def home():
-    return render_template('index.html')
+    return render_template("index.html")
 
 
 def gpt4critique(chat_log):
     messages = [chat_log[-1]]
-    messages.append({"role": "system",
-                     "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."})
+    messages.append(
+        {
+            "role": "system",
+            "content": f"Look at the previous response from NuocGPT; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics.",
+        }
+    )
     print(messages)
     response = openai.ChatCompletion.create(
-        model=GPT4,
-        messages=messages,
-        max_tokens=1000,
-        temperature=0.7,
-        n=1,
-        stop=None
+        model=GPT4, messages=messages, max_tokens=1000, temperature=0.7, n=1, stop=None
     )
 
     # Extract the response text from the API response
     print(response)
-    assistant_response = response['choices'][0]['message']["content"].strip()
+    assistant_response = response["choices"][0]["message"]["content"].strip()
     return assistant_response
 
 
 def gpt3critique(chat_log):
     prev_response = chat_log[-1]["content"]
-    messages = [{"role": "user",
-                     "content": f"Look at the previous response from NuocGPT: {prev_response}; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics."}]
+    messages = [
+        {
+            "role": "user",
+            "content": f"Look at the previous response from NuocGPT: {prev_response}; if the response's content belongs to this list of topics {TOPICS}, say that you cannot answer. Else repeat verbatim the previous NuocGPT content, do not modify it or mention the list of topics.",
+        }
+    ]
     print(messages)
     response = openai.ChatCompletion.create(
-        model=GPT4,
-        messages=messages,
-        max_tokens=1000,
-        temperature=0.7,
-        n=1,
-        stop=None
+        model=GPT4, messages=messages, max_tokens=1000, temperature=0.7, n=1, stop=None
     )
 
     # Extract the response text from the API response
     print(response)
-    assistant_response = response['choices'][0]['message']["content"].strip()
+    assistant_response = response["choices"][0]["message"]["content"].strip()
     return assistant_response
 
 
@@ -92,15 +91,18 @@ def critique(chat_log, critique_model=GPT3):
         return chat_log[-1]["content"]
 
 
-@app.route('/chat', methods=['POST'])
+@app.route("/chat", methods=["POST"])
 def chat():
-    user_message = request.form.get('message')
+    user_message = request.form.get("message")
 
     # Call the OpenAI API to get a response
     try:
         print(user_message)
         if user_message:
-            messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}, {"role": "user", "content": user_message}]
+            messages = [
+                {"role": "system", "content": SYSTEM_INSTRUCTION},
+                {"role": "user", "content": user_message},
+            ]
         else:
             messages = [{"role": "system", "content": SYSTEM_INSTRUCTION}]
 
@@ -110,11 +112,11 @@ def chat():
             max_tokens=1000,
             temperature=0.7,
             n=1,
-            stop=None
+            stop=None,
         )
         # Extract the response text from the API response
         print(response)
-        assistant_response = response['choices'][0]['message']["content"].strip()
+        assistant_response = response["choices"][0]["message"]["content"].strip()
 
         messages.append({"role": "assistant", "content": assistant_response})
 
@@ -125,30 +127,33 @@ def chat():
         global global_response
         global_response = critiqued_response
 
-        return render_template('index.html', response=critiqued_response)
+        return render_template("index.html", response=critiqued_response)
     except ServiceUnavailableError:
-        return render_template('index.html', response="I am sorry but it seems that OpenAI API is not avaiable at the current moment. Please try again later.")
+        return render_template(
+            "index.html",
+            response="I am sorry but it seems that OpenAI API is not avaiable at the current moment. Please try again later.",
+        )
 
 
-@app.route('/feedback', methods=['POST'])
+@app.route("/feedback", methods=["POST"])
 def feedback():
-    reaction = request.json.get('reaction')
+    reaction = request.json.get("reaction")
     collection = db["ResponseLog"]
     # Store the reaction in the MongoDB collection
     feedback_data = {
-        'id' : 'reaction',
-        'question': global_question,
-        'response':global_response,
-        'reaction': reaction
+        "id": "reaction",
+        "question": global_question,
+        "response": global_response,
+        "reaction": reaction,
     }
     collection.insert_one(feedback_data)
 
     print("Data received:", feedback_data)  # Add this line to print the data
 
     # Return a response to the client (optional)
-    return jsonify({'message': 'Feedback received'})
+    return jsonify({"message": "Feedback received"})
 
 
-if __name__ == '__main__':
-    port = int(os.environ.get('PORT', 5010))
-    app.run(host='0.0.0.0', port=port)
+if __name__ == "__main__":
+    port = int(os.environ.get("PORT", 5010))
+    app.run(host="0.0.0.0", port=port)
