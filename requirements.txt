@@ -3,3 +3,5 @@ Flask
 openai
 pymongo
 requests
+llama_index
+pypdf
