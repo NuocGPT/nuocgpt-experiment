@@ -1,7 +1,8 @@
 black
 Flask
+jupyter
+llama_index
 openai
+pypdf
 pymongo
 requests
-llama_index
-pypdf
