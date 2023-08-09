@@ -3,3 +3,5 @@
 # Set the maximum line length to 120 characters
 max-line-length=120
 
+# Ignore these violations
+disable=missing-function-docstring

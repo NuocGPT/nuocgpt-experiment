@@ -1,7 +1,9 @@
+"""Simple script to extract text from PDFs"""
+
+import argparse
 import json
 import os
 import openai
-import argparse
 from llama_index import VectorStoreIndex, SimpleDirectoryReader
 
 
@@ -25,9 +27,9 @@ def generate_document_summary(documents, output_path="extracted_files.txt"):
         )
     document_data.sort(key=lambda d: (d["file_name"], int(d["page"])))
 
-    with open(output_path, 'w') as wf:
+    with open(output_path, 'w', encoding="utf-8") as writer:
         for document in document_data:
-            wf.write(json.dumps(document) + "\n")
+            writer.write(json.dumps(document) + "\n")
 
 
 def persist_index_to_storage(index, output_path='preliminary-llama-index'):
@@ -39,7 +41,8 @@ def persist_index_to_storage(index, output_path='preliminary-llama-index'):
 def interactive_mode(index):
     openai.api_key = os.getenv('OPENAI_API_KEY')
     if not openai.api_key:
-        raise Exception("Invalid OpenAI API key - please check your env variable")
+        print("Invalid OpenAI API key - please check your env variable")
+        return
 
     query_engine = index.as_query_engine()
     prompt = input("Input a question:")
