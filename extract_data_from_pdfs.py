@@ -15,7 +15,7 @@ def extract_text_from_pdf(pdf_path):
     return index, documents
 
 
-def generate_document_summary(documents, output_path="extracted_files.txt"):
+def generate_document_summary(documents, output_path="extracted_files.txt", include_text=False):
     document_data = []
     for document in documents:
         document_data.append(
@@ -25,6 +25,9 @@ def generate_document_summary(documents, output_path="extracted_files.txt"):
                 "text_length": len(document.text),
             }
         )
+        if include_text:
+            document_data[-1]["text"] = document.text
+
     document_data.sort(key=lambda d: (d["file_name"], int(d["page"])))
 
     with open(output_path, 'w', encoding="utf-8") as writer:
@@ -57,11 +60,13 @@ def main():
     parser.add_argument("--interactive", help="Enter interactive mode to query your index", action="store_true")
     parser.add_argument("--input_path", help="Directory to read PDFs from", default="data/PDFs")
     parser.add_argument("--output_path", help="Directory to save the index data", default="preliminary-llama-index")
+    parser.add_argument("--include_text", help="Output the extracted texts in the summary", action="store_true")
     args = parser.parse_args()
 
     index, documents = extract_text_from_pdf(args.input_path)
     persist_index_to_storage(index, args.output_path)
-    generate_document_summary(documents, output_path=args.output_path + "/extracted_files.jsonl")
+    generate_document_summary(documents, output_path=args.output_path + "/extracted_files.jsonl",
+                              include_text=args.include_text)
     if args.interactive:
         interactive_mode(index)
 
