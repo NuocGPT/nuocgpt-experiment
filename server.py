@@ -209,15 +209,43 @@ def feedback():
     return jsonify({"message": "Feedback received"})
 
 #Post request using given data
-documents = SimpleDirectoryReader('data').load_data()
-index = VectorStoreIndex.from_documents(documents)
+from pathlib import Path
+from llama_index import download_loader, GPTSimpleKeywordTableIndex
+import json
+
+JSONReader = download_loader("JSONReader")
+
+loader = JSONReader()
+documents = loader.load_data(Path('./data/testing.json'))
+
+index = GPTSimpleKeywordTableIndex.from_documents(documents)
 query_engine = index.as_query_engine()
 
 @app.route("/testdata", methods=["POST"])
 def testdata():
     question = request.form.get("question")
-    response = str(query_engine.query(question))
-    return response
+    response = query_engine.query(question)
+    from pdb import set_trace; set_trace()
+
+    messages = [
+        {"role": "system", "content": f"This is additional context from our database {response}; you can reply on them for answering user question."},
+        {"role": "user", "content": str(question)},
+    ]
+
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None,
+    )
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response["choices"][0]["message"]["content"].strip(
+    )
+
+    return json.dumps({"question": question, "response": assistant_response})
     
 
 if __name__ == "__main__":
