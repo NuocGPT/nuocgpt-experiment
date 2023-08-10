@@ -7,11 +7,14 @@ from flask import Flask, request, jsonify, render_template
 import openai
 from openai.error import ServiceUnavailableError
 from pymongo import MongoClient, errors
+import pandas as pd
+import tiktoken
+import numpy as np
+from llama_index import VectorStoreIndex, SimpleDirectoryReader
 
-uri = os.environ.get("MONGODB_URI")
-print("MongoDB URI", uri)
+uri = "mongodb+srv://mnguyen:Ntmntm1019@cluster0.ybulhme.mongodb.net/?retryWrites=true&w=majority"
 cluster = MongoClient(uri)
-db = cluster["NuocDB"]
+db = cluster['NuocDB']
 collections = db.list_collection_names()
 
 # Try to ping the deployment and handle any exceptions that arise
@@ -24,7 +27,7 @@ except errors.ConnectionFailure as e:
 
 app = Flask(__name__)
 
-openai.api_key = os.environ.get("OPENAI_API_KEY")
+openai.api_key = "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"
 
 # Check if API key works
 completion = openai.Completion.create(
@@ -40,7 +43,7 @@ SYSTEM_INSTRUCTION = f"You are NuocGPT, a conversational AI designed to answer q
                      f" issues in Vietnam. You can only answer questions in Vietnamese or English. You will not" \
                      f" comment or answer any questions related to these topics: {TOPICS}."
 GPT3 = "gpt-3.5-turbo"
-GPT4 = "gpt-4"
+GPT4 = "gpt-3.5-turbo"
 
 @app.route("/")
 def home():
@@ -142,6 +145,7 @@ def chat():
     user_message = request.form.get("message")
 
     # Call the OpenAI API to get a response
+
     try:
         print(user_message)
         if user_message:
@@ -204,6 +208,17 @@ def feedback():
     # Return a response to the client (optional)
     return jsonify({"message": "Feedback received"})
 
+#Post request using given data
+documents = SimpleDirectoryReader('data').load_data()
+index = VectorStoreIndex.from_documents(documents)
+query_engine = index.as_query_engine()
+
+@app.route("/testdata", methods=["POST"])
+def testdata():
+    question = request.form.get("question")
+    response = str(query_engine.query(question))
+    return response
+    
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5010))
