@@ -11,6 +11,8 @@
         <button type="submit">Submit</button>
     </form>
     {% if response %}
+        <h2>Question:</h2>
+        <p>{{ question }}</p>
         <h2>Response:</h2>
         <p>{{ response }}</p>
         <button id="likeButton">Like</button>

@@ -119,6 +119,7 @@ def chat():
     :return: The response from the chat bot.
     """
     user_message = request.form.get("message")
+    original_question = user_message
 
     # Call the OpenAI API to get a response
     try:
@@ -130,8 +131,9 @@ def chat():
             final_response = app.query_engine.query(query_str)
         else:
             if user_message:
-                context_response = app.query_engine.query(user_message)
-                user_message = f"Additional context information: {context_response}\nMy question: {user_message}"
+                if app.use_llama_index:
+                    context_response = app.query_engine.query(user_message)
+                    user_message = f"Additional context information: {context_response}\nMy question: {user_message}"
 
                 messages = [
                     {"role": "system", "content": SYSTEM_INSTRUCTION},
@@ -160,7 +162,7 @@ def chat():
         app.user_message = user_message
         app.assistant_response = final_response
 
-        return render_template("index.html", response=final_response)
+        return render_template("index.html", question=original_question, response=final_response)
     except ServiceUnavailableError:
         return render_template(
             "index.html",
@@ -220,19 +222,25 @@ def load_mongo_db():
     return mongo_db
 
 
-def load_llhama_index():
-    storage_dir = os.environ.get("LLHAMA_INDEX", 'preliminary-llama-index')
+def load_llama_index():
+    storage_dir = os.environ.get("LLAMA_INDEX_DIR", 'preliminary-llama-index')
     storage_context = StorageContext.from_defaults(persist_dir=storage_dir)
     index = load_index_from_storage(storage_context, 'vector_index')
     return index
 
 
+init_openai_key()
+app.db = load_mongo_db()
+app.user_message = ""
+app.assistant_response = ""
+app.use_llama_index = False
+
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5010))
-    init_openai_key()
-    app.db = load_mongo_db()
-    app.index = load_llhama_index()
+
+    # Only enable llama index locally for now
+    app.use_llama_index = True
+    app.index = load_llama_index()
     app.query_engine = app.index.as_query_engine()
-    app.user_message = ""
-    app.assistant_response = ""
+
     app.run(host="0.0.0.0", port=port)
