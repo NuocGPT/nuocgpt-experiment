@@ -1,4 +1,5 @@
 black
+bs4
 Flask
 gunicorn
 jupyter
