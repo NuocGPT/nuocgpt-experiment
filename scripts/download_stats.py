@@ -4,6 +4,7 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+processed_dates = []
 
 def extract_table_url(url, output_path):
     page = requests.get(url, timeout=60000)
@@ -40,8 +41,11 @@ def extract_table_url(url, output_path):
                 result["data"].append(dic)
 
         # date created
-        result["date_created"] = soup.find("div", class_="DateCreate").contents[0].replace("Ngày ", "")
+        date_string = soup.find("div", class_="DateCreate").contents[0].replace("Ngày ", "")
+        result["date_created"] = date_string
         result["datetime_format"] = "vietnamese"
+
+        output_path = output_path + "-" + date_string.replace("/","_") + ".json"
 
         # save to file
         print(result)
@@ -50,10 +54,17 @@ def extract_table_url(url, output_path):
         with open(output_path, "w", encoding="utf-8") as writer:
             json.dump(result, writer, ensure_ascii=False, indent=4)
 
+        # grab the links to other pages with results of other days
+        for link in soup.find_all('a'):
+            other_day_url = link.get('href')
+            if other_day_url is not None:
+                if "ket-qua-quan-trac-moi-truong-nuoc-ngay" in other_day_url:
+                    print(other_day_url)
+
 def main():
     parser = argparse.ArgumentParser(description="Script to extract information table from province's url")
     parser.add_argument("--url", help="URL for extraction", default="")
-    parser.add_argument("--output_path", help="File path to save the extracted json", default="extracted_table.json")
+    parser.add_argument("--output_path", help="File path to save the extracted json", default="travinh")
     args = parser.parse_args()
 
     url = args.url
