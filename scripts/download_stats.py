@@ -12,7 +12,7 @@ def extract_table_url(url, output_path):
     if url not in processed_urls:
         print(f"Processing: {url}")
         processed_urls.append(url)
-        
+
         page = requests.get(url, timeout=60000)
         soup = BeautifulSoup(page.content, "html.parser")
 
@@ -39,11 +39,11 @@ def extract_table_url(url, output_path):
                     dic = {}
                     print(", ".join(row))
                     dic["location"] = row[1]
-                    dic["salinity"] = {"value": row[2], "unit": "%"}
+                    dic["salinity"] = {"value": row[2].replace(",","."), "unit": "%"}
                     dic["ph"] = {"value": row[2], "unit": "ph"}
-                    dic["alkalinity"] = {"value": row[3], "unit": "mg/l"}
-                    dic["oxygen"] = {"value": row[4], "unit": "mg/l"}
-                    dic["temperature"] = {"value": row[5], "unit": "celsius"}
+                    dic["alkalinity"] = {"value": row[3].replace(",","."), "unit": "mg/l"}
+                    dic["oxygen"] = {"value": row[4].replace(",","."), "unit": "mg/l"}
+                    dic["temperature"] = {"value": row[5].replace(",","."), "unit": "celsius"}
                     result["data"].append(dic)
 
             # date created

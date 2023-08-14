@@ -11,7 +11,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -19,7 +19,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -34,7 +34,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -42,7 +42,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -57,7 +57,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -65,7 +65,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -80,7 +80,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "8,0",
+                "value": "8.0",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -88,7 +88,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "4,0",
+                "value": "4.0",
                 "unit": "celsius"
             }
         },
@@ -103,7 +103,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -111,7 +111,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -126,7 +126,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -134,7 +134,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "4,0",
+                "value": "4.0",
                 "unit": "celsius"
             }
         },
@@ -149,7 +149,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -157,7 +157,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -172,7 +172,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "8,5",
+                "value": "8.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -180,7 +180,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "4,0",
+                "value": "4.0",
                 "unit": "celsius"
             }
         },
@@ -195,7 +195,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,0",
+                "value": "7.0",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -203,7 +203,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -218,7 +218,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,0",
+                "value": "7.0",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -226,7 +226,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         },
@@ -241,7 +241,7 @@
                 "unit": "ph"
             },
             "alkalinity": {
-                "value": "7,5",
+                "value": "7.5",
                 "unit": "mg/l"
             },
             "oxygen": {
@@ -249,7 +249,7 @@
                 "unit": "mg/l"
             },
             "temperature": {
-                "value": "3,0",
+                "value": "3.0",
                 "unit": "celsius"
             }
         }
