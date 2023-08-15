@@ -1,7 +1,10 @@
 black
+bs4
 Flask
+gunicorn
+jupyter
+llama_index
 openai
+pypdf
 pymongo
 requests
-llama_index
-pypdf
