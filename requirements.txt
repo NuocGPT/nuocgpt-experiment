@@ -1,6 +1,6 @@
-black
-Flask
-openai
+Flask==2.1.0
+openai>=0.27.0
 pymongo
-requests
+requests<3.0
 nltk
+llama_index
