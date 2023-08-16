@@ -226,9 +226,28 @@ def testdata():
     Responds based on data we use
     """
     question = request.form.get("question")
-    response = str(query_engine.query(question))
-    return response
+    response = query_engine.query(question)
 
+    messages = [
+        {"role": "system", "content": f"This is additional context from our database \
+            {response}; you can reply on them for answering user question."},
+        {"role": "user", "content": str(question)},
+    ]
+
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None,
+    )
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response["choices"][0]["message"]["content"].strip(
+    )
+
+    return json.dumps({"question": question, "response": assistant_response})
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5010))
