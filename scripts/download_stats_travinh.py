@@ -5,7 +5,7 @@ import requests
 from bs4 import BeautifulSoup
 
 processed_urls = []
-server = ""
+server = "https://travinh.gov.vn"
 
 def extract_table_url(url, output_path):
     global processed_urls
@@ -72,19 +72,27 @@ def extract_table_url(url, output_path):
 def main():
     parser = argparse.ArgumentParser(description="Script to extract information table from province's url")
     parser.add_argument("--url", help="URL for extraction", default="")
+    parser.add_argument("--input_path", help="File path which contains all the urls")
     parser.add_argument("--output_path", help="File path to save the extracted json", default="travinh")
     args = parser.parse_args()
 
-    url = args.url
-    if not url:
-        url = input("Please input the url for extraction:")
+    if args.input_path:
+        server = "https://travinh.gov.vn"
+        with open(args.input_path, "r") as reader:
+            lines = reader.readlines()
+            for line in lines:
+                url = server + line
+                extract_table_url(url, args.output_path)
+    else:
+        url = args.url
+        if not url:
+            url = input("Please input the url for extraction:")
 
-    #extract the server address
-    global server
-    server = url[0:url.find("/mDefault")]
-    print(f"Server: {server}")
+        #extract the server address
+        server = url[0:url.find("/mDefault")]
+        print(f"Server: {server}")
 
-    extract_table_url(url, args.output_path)
+        extract_table_url(url, args.output_path)
 
 
 if __name__ == "__main__":

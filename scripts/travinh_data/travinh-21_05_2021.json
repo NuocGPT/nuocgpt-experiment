@@ -1,0 +1,351 @@
+{
+    "data": [
+        {
+            "location": "Sông Cổ Chiên - Châu Thành (cầu Rạch Gốc)",
+            "salinity": {
+                "value": "2",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "2",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.6",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "72",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "28",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Sông Vinh Kim - Cầu Ngang (gần Cầu Vinh Kim)",
+            "salinity": {
+                "value": "0",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "0",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "72",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "28",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Sông Hiệp Mỹ - Cầu Ngang (gần cầu Hiệp Mỹ)",
+            "salinity": {
+                "value": "10",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "10",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.0",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "125",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "28",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cống Thâu Râu - Mỹ Long Nam - Cầu Ngang",
+            "salinity": {
+                "value": "11",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "11",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "27",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cầu Sông Giăng - Hiệp Thạnh - TX. Duyên Hải",
+            "salinity": {
+                "value": "12",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "12",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "29",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Sông Long Toàn - Duyên Hải (Cầu Long Toàn)",
+            "salinity": {
+                "value": "13",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "13",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "30",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cầu Kênh Đào - Long Vĩnh - Duyên Hải",
+            "salinity": {
+                "value": "11",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "11",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.8",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "105",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "27",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cống La Bang - Đôn Châu - Duyên Hải",
+            "salinity": {
+                "value": "11",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "11",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.0",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "29",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Bến đò Phước Thiện - Đông Hải - Duyên Hải",
+            "salinity": {
+                "value": "23",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "23",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "70",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "28",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "HTX nghêu Thành Đạt - Hiệp Thạnh - TX. Duyên Hải",
+            "salinity": {
+                "value": "11",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "11",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "7.0",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "29",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Vàm Hưng Mỹ - Châu Thành",
+            "salinity": {
+                "value": "1.3",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "1,3",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Vàm Trà Vinh – Tp.Trà Vinh",
+            "salinity": {
+                "value": "0.2",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "0,2",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cống Đức Mỹ - Càng Long",
+            "salinity": {
+                "value": "0.1",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "0,1",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Vàm Cầu Quan - Tiểu Cần",
+            "salinity": {
+                "value": "0.1",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "0,1",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Vàm Trà Kha - Định An",
+            "salinity": {
+                "value": "1.9",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "1,9",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "",
+                "unit": "celsius"
+            }
+        }
+    ],
+    "date_created": "21/05/2021",
+    "datetime_format": "vietnamese"
+}

@@ -1,0 +1,98 @@
+{
+    "data": [
+        {
+            "location": "Sông Hiệp Mỹ - Cầu Ngang (gần cầu Hiệp Mỹ)",
+            "salinity": {
+                "value": "4",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "4",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.0",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "27",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cống Thâu Râu - Mỹ Long Nam - Cầu Ngang",
+            "salinity": {
+                "value": "4",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "4",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.0",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "72",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "27",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Cầu Sông Giăng - Hiệp Thạnh - TX. Duyên Hải",
+            "salinity": {
+                "value": "3",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "3",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "72",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "28",
+                "unit": "celsius"
+            }
+        },
+        {
+            "location": "Sông Long Toàn – TX.Duyên Hải (Cầu Long Toàn)",
+            "salinity": {
+                "value": "6",
+                "unit": "%"
+            },
+            "ph": {
+                "value": "6",
+                "unit": "ph"
+            },
+            "alkalinity": {
+                "value": "8.5",
+                "unit": "mg/l"
+            },
+            "oxygen": {
+                "value": "90",
+                "unit": "mg/l"
+            },
+            "temperature": {
+                "value": "26",
+                "unit": "celsius"
+            }
+        }
+    ],
+    "date_created": "03/12/2021",
+    "datetime_format": "vietnamese"
+}
