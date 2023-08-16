@@ -1,19 +1,19 @@
-"""
-NuocGPT main server class
-"""
+"""Server code"""
 
 import os
+from pathlib import Path
+import json
+#from pdb import set_trace
 from flask import Flask, request, jsonify, render_template
 import openai
 from openai.error import ServiceUnavailableError
 from pymongo import MongoClient, errors
-import pandas as pd
-import tiktoken
-import numpy as np
-from llama_index import VectorStoreIndex, SimpleDirectoryReader
+from llama_index import download_loader, GPTSimpleKeywordTableIndex
 
-uri = "mongodb+srv://mnguyen:Ntmntm1019@cluster0.ybulhme.mongodb.net/?retryWrites=true&w=majority"
-cluster = MongoClient(uri)
+
+
+URI = "mongodb+srv://mnguyen:Ntmntm1019@cluster0.ybulhme.mongodb.net/?retryWrites=true&w=majority"
+cluster = MongoClient(URI)
 db = cluster['NuocDB']
 collections = db.list_collection_names()
 
@@ -180,7 +180,8 @@ def chat():
     except ServiceUnavailableError:
         return render_template(
             "index.html",
-            response="I am sorry but it seems that OpenAI API is not avaiable at the current moment. Please try"
+            response="I am sorry but it seems that OpenAI API is not \
+            avaiable at the current moment. Please try"
                      " again later.",
         )
 
@@ -209,16 +210,44 @@ def feedback():
     return jsonify({"message": "Feedback received"})
 
 #Post request using given data
-documents = SimpleDirectoryReader('data').load_data()
-index = VectorStoreIndex.from_documents(documents)
+
+
+JSONReader = download_loader("JSONReader")
+
+loader = JSONReader()
+documents = loader.load_data(Path('./data/testing.json'))
+
+index = GPTSimpleKeywordTableIndex.from_documents(documents)
 query_engine = index.as_query_engine()
 
 @app.route("/testdata", methods=["POST"])
 def testdata():
+    """
+    Responds based on data we use
+    """
     question = request.form.get("question")
-    response = str(query_engine.query(question))
-    return response
-    
+    response = query_engine.query(question)
+
+    messages = [
+        {"role": "system", "content": f"This is additional context from our database \
+        {response}; you can reply on them for answering user question."},
+        {"role": "user", "content": str(question)},
+    ]
+
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None,
+    )
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response["choices"][0]["message"]["content"].strip(
+    )
+
+    return json.dumps({"question": question, "response": assistant_response})
 
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 5010))
