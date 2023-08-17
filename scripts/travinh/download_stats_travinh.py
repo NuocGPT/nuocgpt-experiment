@@ -4,6 +4,38 @@ import json
 import requests
 from bs4 import BeautifulSoup
 
+# mapping function for Vietnamese sensoring data name
+def data_type_english_name(vietnamese_name):
+    if "mặn" in vietnamese_name or "Mặn" in vietnamese_name:
+        return "salinity"
+    if "pH" in vietnamese_name or "ph" in vietnamese_name:
+        return "pH"
+    if "Kiềm" in vietnamese_name or "kiềm" in vietnamese_name:
+        return "alkalinity"
+    if "Oxy" in vietnamese_name or "oxy" in vietnamese_name:
+        return "oxygen"
+    if "Nhiệt" in vietnamese_name or "nhiệt" in vietnamese_name:
+        return "temperature"
+    if "NH4" in vietnamese_name or "nh4" in vietnamese_name:
+        return "NH4/NH3"
+    return "unknown"
+
+def data_unit(vietnamese_name):
+    if "mặn" in vietnamese_name or "Mặn" in vietnamese_name:
+        return "0/00"
+    if "pH" in vietnamese_name or "ph" in vietnamese_name:
+        return "none"
+    if "Kiềm" in vietnamese_name or "kiềm" in vietnamese_name:
+        return "mg/l"
+    if "Oxy" in vietnamese_name or "oxy" in vietnamese_name:
+        return "mg/l"
+    if "Nhiệt" in vietnamese_name or "nhiệt" in vietnamese_name:
+        return "celcius"
+    if "NH4" in vietnamese_name or "nh4" in vietnamese_name:
+        return "mg/l"
+    return "unknown"
+
+
 processed_urls = []
 server = "https://travinh.gov.vn"
 
@@ -31,19 +63,25 @@ def extract_table_url(url, output_path):
                 for table_cell in row.findAll(["td", "th"]):  # Capture header (th) and data (td) cells
                     row_data.append(table_cell.get_text(strip=True))  # .get_text() extracts the text from the tags
                 rows.append(row_data)
-
+                print(row_data)
+                
             # Print the extracted data
             result = {"data": []}
             for row in rows[2:]:
-                if row[0]:
-                    dic = {}
+                # sometime there is an extra empty column at the begining of the table
+                i = 1
+                if not row[0]:
+                    i = 2
+                    
+                if row[i]:
                     print(", ".join(row))
-                    dic["location"] = row[1]
-                    dic["salinity"] = {"value": row[2].replace(",","."), "unit": "%"}
-                    dic["ph"] = {"value": row[2], "unit": "ph"}
-                    dic["alkalinity"] = {"value": row[3].replace(",","."), "unit": "mg/l"}
-                    dic["oxygen"] = {"value": row[4].replace(",","."), "unit": "mg/l"}
-                    dic["temperature"] = {"value": row[5].replace(",","."), "unit": "celsius"}
+                    dic = {}
+                    dic["location"] = row[i]
+
+                    for column_header in rows[1]:
+                        i = i + 1
+                        dic[column_header] = {"value": row[i].replace(",","."), "unit": data_unit(column_header), "name" : data_type_english_name(column_header)}
+                
                     result["data"].append(dic)
 
             # date created
@@ -60,11 +98,11 @@ def extract_table_url(url, output_path):
                 json.dump(result, writer, ensure_ascii=False, indent=4)
 
             # grab the links to other pages with results of other days
-            for link in soup.find_all('a'):
-                other_day_url = link.get('href')
-                if other_day_url is not None:
-                    if "ket-qua-quan-trac-moi-truong-nuoc-ngay" in other_day_url:
-                        extract_table_url(server+other_day_url,output_path)
+            #for link in soup.find_all('a'):
+            #    other_day_url = link.get('href')
+            #    if other_day_url is not None:
+            #        if "ket-qua-quan-trac-moi-truong-nuoc-ngay" in other_day_url:
+            #            extract_table_url(server+other_day_url,output_path)
     else:
         print(f"Already processed url: {url}")
 
