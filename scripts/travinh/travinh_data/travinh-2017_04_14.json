@@ -1,0 +1,351 @@
+{
+    "data": [
+        {
+            "location": "Cầu Rạch Gốc - Long Hòa - Châu Thành",
+            "Độ mặn(‰)": {
+                "value": "5",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Bến phà Bãi Vàng - Hưng Mỹ - Châu Thành",
+            "Độ mặn(‰)": {
+                "value": "3",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "7.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "31",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Sông Vinh Kim – Cầu Ngang (gần Cầu Vinh Kim)",
+            "Độ mặn(‰)": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Sông Hiệp Mỹ - Cầu Ngang (gần cầu Hiệp Mỹ)",
+            "Độ mặn(‰)": {
+                "value": "14",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "31",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cống Thâu Râu -Mỹ LongNam- Cầu Ngang",
+            "Độ mặn(‰)": {
+                "value": "17",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "31",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cống Ba Diệp - Thạnh Hòa Sơn - Cầu Ngang",
+            "Độ mặn(‰)": {
+                "value": "8",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "7.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Sông Láng Chim - Duyên Hải (Cầu Láng Chim)",
+            "Độ mặn(‰)": {
+                "value": "19",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "32",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cầu Ba Động - Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "16",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "32",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Bến đò Phước Thiện - Đông Hải - Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "18",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "7.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cống La Bang - Đôn Châu - Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "17",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "7.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Sông Long Toàn - Duyên Hải (Cầu Long Toàn)",
+            "Độ mặn(‰)": {
+                "value": "20",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "32",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cầu Kênh Đào - Long Vĩnh - Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "17",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "7.8",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cầu Sông Giăng – Hiệp Thạnh – Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "13",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Cống Đại An -Đại An -Trà Cú",
+            "Độ mặn(‰)": {
+                "value": "1",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        },
+        {
+            "location": "Vàm Trà Kha - Định An - Trà Cú",
+            "Độ mặn(‰)": {
+                "value": "3",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
+                "value": "8.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Nhiệt độ nước (oC)": {
+                "value": "31",
+                "unit": "celcius",
+                "name": "temperature"
+            }
+        }
+    ],
+    "date_created": "14/04/2017",
+    "datetime_format": "vietnamese"
+}
