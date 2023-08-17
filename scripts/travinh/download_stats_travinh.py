@@ -85,11 +85,14 @@ def extract_table_url(url, output_path):
                     result["data"].append(dic)
 
             # date created
-            date_string = soup.find("div", class_="DateCreate").contents[0].replace("Ngày ", "")
-            result["date_created"] = date_string
+            vietnamese_date_string = soup.find("div", class_="DateCreate").contents[0].replace("Ngày ", "")
+            result["date_created"] = vietnamese_date_string
             result["datetime_format"] = "vietnamese"
+            
+            # change from DD/MM/YYYY in Vietnamese to YYYY_MM_DD
+            us_date_string = vietnamese_date_string[6:10] + "_" + vietnamese_date_string[3:5] + "_" + vietnamese_date_string[0:2]
 
-            output_full_path = output_path + "-" + date_string.replace("/","_") + ".json"
+            output_full_path = output_path + "-" + us_date_string + ".json"
 
             # save to file
             # print(result)
