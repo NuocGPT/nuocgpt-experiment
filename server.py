@@ -12,17 +12,17 @@ from pymongo import MongoClient, errors
 from llama_index import StorageContext, load_index_from_storage, download_loader, GPTSimpleKeywordTableIndex
 
 
-URI = os.environ.get("MONGODB_URI")
-cluster = MongoClient(URI)
-db = cluster['NuocDB']
-collections = db.list_collection_names()
+#URI = os.environ.get("MONGODB_URI")
+#cluster = MongoClient(URI)
+#db = cluster['NuocDB']
+#collections = db.list_collection_names()
 
 # Try to ping the deployment and handle any exceptions that arise
-try:
-    cluster.admin.command("ping")
-    print("Pinged your deployment. You successfully connected to MongoDB!")
-except errors.ConnectionFailure as e:
-    print(f"Failed to connect to MongoDB: {e}")
+#try:
+    #cluster.admin.command("ping")
+    #print("Pinged your deployment. You successfully connected to MongoDB!")
+#except errors.ConnectionFailure as e:
+    #print(f"Failed to connect to MongoDB: {e}")
 
 
 app = Flask(__name__)
@@ -213,7 +213,7 @@ def feedback():
 #Post request using given data
 
 
-def init_query_engine(app):
+def init_query_engine(param):
     json_reader = download_loader("JSONReader")
     loader = json_reader()
     documents = loader.load_data(Path('./data/testing.json'))
@@ -221,8 +221,8 @@ def init_query_engine(app):
     index = GPTSimpleKeywordTableIndex.from_documents(documents)
     query_engine = index.as_query_engine()
 
-    app.index = index
-    app.query_engine = query_engine
+    param.index = index
+    param.query_engine = query_engine
 
 
 init_query_engine(app)
