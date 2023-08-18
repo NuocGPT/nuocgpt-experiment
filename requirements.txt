@@ -1,6 +1,6 @@
-Flask==2.1.0
-openai>=0.27.0
+Flask
+openai
 pymongo
-requests<3.0
+requests
 nltk
 llama_index

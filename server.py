@@ -27,7 +27,7 @@ except errors.ConnectionFailure as e:
 
 app = Flask(__name__)
 
-openai.api_key = "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"
+openai.api_key = os.environ.get("OPENAI_API_KEY")
 
 # Check if API key works
 completion = openai.Completion.create(
@@ -212,13 +212,19 @@ def feedback():
 #Post request using given data
 
 
-JSONReader = download_loader("JSONReader")
+def init_query_engine(app):
+    JSONReader = download_loader("JSONReader")
+    loader = JSONReader()
+    documents = loader.load_data(Path('./data/testing.json'))
 
-loader = JSONReader()
-documents = loader.load_data(Path('./data/testing.json'))
+    index = GPTSimpleKeywordTableIndex.from_documents(documents)
+    query_engine = index.as_query_engine()
 
-index = GPTSimpleKeywordTableIndex.from_documents(documents)
-query_engine = index.as_query_engine()
+    app.index = index
+    app.query_engine = query_engine
+
+
+init_query_engine(app)
 
 @app.route("/testdata", methods=["POST"])
 def testdata():
@@ -226,7 +232,7 @@ def testdata():
     Responds based on data we use
     """
     question = request.form.get("question")
-    response = query_engine.query(question)
+    response = app.query_engine.query(question)
 
     messages = [
         {"role": "system", "content": f"This is additional context from our database \
