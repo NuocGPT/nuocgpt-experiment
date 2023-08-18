@@ -12,19 +12,6 @@ from pymongo import MongoClient, errors
 from llama_index import StorageContext, load_index_from_storage, download_loader, GPTSimpleKeywordTableIndex
 
 
-#URI = os.environ.get("MONGODB_URI")
-#cluster = MongoClient(URI)
-#db = cluster['NuocDB']
-#collections = db.list_collection_names()
-
-# Try to ping the deployment and handle any exceptions that arise
-#try:
-    #cluster.admin.command("ping")
-    #print("Pinged your deployment. You successfully connected to MongoDB!")
-#except errors.ConnectionFailure as e:
-    #print(f"Failed to connect to MongoDB: {e}")
-
-
 app = Flask(__name__)
 
 # Vars and constants
