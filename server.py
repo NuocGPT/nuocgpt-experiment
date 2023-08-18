@@ -205,8 +205,7 @@ def feedback():
     }
     collection.insert_one(feedback_data)
 
-    print("Data received:", feedback_data)  # Add this line to print the data
-
+    print("Data received:", feedback_data)
     # Return a response to the client (optional)
     return jsonify({"message": "Feedback received"})
 
@@ -214,8 +213,8 @@ def feedback():
 
 
 def init_query_engine(app):
-    JSONReader = download_loader("JSONReader")
-    loader = JSONReader()
+    json_reader = download_loader("JSONReader")
+    loader = json_reader()
     documents = loader.load_data(Path('./data/testing.json'))
 
     index = GPTSimpleKeywordTableIndex.from_documents(documents)
