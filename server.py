@@ -1,9 +1,10 @@
-"""Server code"""
+"""
+NuocGPT main server class
+"""
 
 import os
 from pathlib import Path
 import json
-#from pdb import set_trace
 from flask import Flask, request, jsonify, render_template
 import openai
 from openai.error import ServiceUnavailableError
@@ -12,7 +13,7 @@ from llama_index import download_loader, GPTSimpleKeywordTableIndex
 
 
 
-URI = "mongodb+srv://mnguyen:Ntmntm1019@cluster0.ybulhme.mongodb.net/?retryWrites=true&w=majority"
+URI = os.environ.get("MONGODB_URI")
 cluster = MongoClient(URI)
 db = cluster['NuocDB']
 collections = db.list_collection_names()
