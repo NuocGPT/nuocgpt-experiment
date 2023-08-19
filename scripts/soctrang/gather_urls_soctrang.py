@@ -26,7 +26,7 @@ for link in soup.find_all('a'):
             print(other_day_url)
             total_urls.append(other_day_url)
             
-for page_id in range(2, 10):
+for page_id in range(2, 51):
     #driver.find_element(By.CLASS_NAME, "ButtonPage").click()
     try:
         el = driver.find_element(By.LINK_TEXT, str(page_id))
