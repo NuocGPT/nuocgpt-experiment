@@ -1,502 +1,602 @@
 [
     {
-        "Question":"What was the average arithmetical increase in population from 1940 to 2020?",
-        "Answer":"\nIt is not possible to answer this question without prior knowledge.",
-        "Match":"NO"
+        "Question": "What is the significance of water as a first-hand input to agricultural production?",
+        "Answer": "\nWater is a critical first-hand input to agricultural production, as it is essential for plant growth and development. Without adequate water, plants cannot photosynthesize and produce biomass, leading to decreased yields. Additionally, water can be used to irrigate crops, which can help to offset the effects of infrequent rainfall events and reduce the dependence on irrigation water. Water can also be used to reduce the effects of salinity on crop yields, as salt-tolerant crops can be grown with less irrigation water. Finally, water can be used to improve the water use efficiency of crops, allowing them to produce more biomass or grain per unit of water.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are some considerations regarding the use of plastic mulch in the MRD?",
-        "Answer":"\nSome considerations regarding the use of plastic mulch in the MRD include the environmental implications of using non-biodegradable plastic, the potential for increased soil temperatures in cool climates, and the potential for pesticide runoff. Additionally, the cost of plastic mulch must be taken into account.",
-        "Match":"YES"
+        "Question": "How does the average number of household members in Ben Tre compare to other research in Vietnam and the Mekong Delta?",
+        "Answer": "\nIt is difficult to answer this question without prior knowledge or further research. However, based on the information provided, the average number of household members in Ben Tre is 3.1 in 2016 and 3.1 in 2018, which is consistent with other research in Vietnam and the Mekong Delta.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the movement of saltwater impact the driving pressure for seawater inland?",
-        "Answer":"\nThe movement of saltwater inland causes the driving pressure for seawater to move inland through either coastal aquifers or through canals that exit to the ocean. This pressure can cause saltwater intrusion in aquifers, leading to contamination of freshwater sources.",
-        "Match":"YES"
+        "Question": "How does seawater intrude into the inland areas of Tra Vinh Province?",
+        "Answer": "\nSeawater intrudes into the inland areas of Tra Vinh Province through the semi-tide regime of the East Sea through the Co Chien River and Hau River. Saline water intrudes into Tra Vinh simultaneously with the tide regime, depending on the seasons of the year, generally highest in March, April, and May.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How can a deflected line in a canal be corrected or prevented?",
-        "Answer":"\nA deflected line in a canal can be corrected or prevented by ensuring quality control of construction and using proper steel work. This can help reduce the risk of cracks in the canal wall and reduce the pressure of flood water.",
-        "Match":"YES"
+        "Question": "What is the proposed management plan option 2 for Dania Beach's water supply?",
+        "Answer": "\nOption 2 for Dania Beach's water supply is to construct wells further from the ocean. This would involve drilling new wells away from the ocean to reduce the risk of saltwater intrusion.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the per capita water demand in 2020, 2030, 2040, and 2050?",
-        "Answer":"\n2020: 2.3 MGD \/ 29,808 people = 0.077 MGD\/person\n2030: 2.9 MGD \/ 32,344 people = 0.090 MGD\/person\n2040: 3.5 MGD \/ 34,890 people = 0.101 MGD\/person\n2050: 4.1 MGD \/ 37,436 people = 0.110 MGD\/person",
-        "Match":"NO"
+        "Question": "Explain the flow patterns at the deep area downstream of the bed slope during flood tide.",
+        "Answer": "\nDuring flood tide, the flow patterns at the deep area downstream of the bed slope vary depending on the scenario. In scenario 3, the river discharge prevails over the tidal flow, resulting in a unidirectional seaward flow. In scenarios 4 and 5, the flow direction turns landward at the flood tide with its magnitude increasing as the tidal amplitude (TA) increases. The velocity magnitude of scenarios 4 and 5 is more than double that of the three others and resembles the shape of the hydrograph with lower values at dry and higher values at the wet season.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the advantages of purchasing water from a nearby system outside of Dania Beach as a long-term management plan option?",
-        "Answer":"\nThe advantages of purchasing water from a nearby system outside of Dania Beach as a long-term management plan option are:\n1. Cost effectiveness - Purchasing additional water from a nearby system would not incur additional capital cost, making it the most cost-effective option.\n2. Feasibility - The nearby system has excess capacity, making purchasing water from it feasible well into the future.\n3. Quality - Purchasing additional water from a nearby system would ensure that the water meets state and federal standards.",
-        "Match":"YES"
+        "Question": "What are the three categories of pipelines used in irrigation systems?",
+        "Answer": "\nThe three categories of pipelines used in irrigation systems are open, semi-open, and closed.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Why is it important to check the water quality in a sedimentation pond before releasing it to a river or stream?",
-        "Answer":"\nIt is important to check the water quality in a sedimentation pond before releasing it to a river or stream because the sedimentation pond is used to purify the water by removing particles from muddy water. If the water quality is not checked, the water may still contain pollutants that could be harmful to the environment.",
-        "Match":"YES"
+        "Question": "How can integrated \"grey-green\" solutions contribute to agricultural resilience in the delta?",
+        "Answer": "\nIntegrated \"grey-green\" solutions can contribute to agricultural resilience in the delta by providing year-round freshwater for irrigated farming and domestic consumption, absorbing large amounts of floodwater to mitigate local flooding, and providing a means for rural communities to secure their food security. Additionally, integrating \"grey-green\" solutions into the water governance framework can help secure the sufficient availability of water for agricultural production in the delta.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Compare and contrast the features of a non-lined canal and a lined canal following repairs, as shown in Figure 71.",
-        "Answer":"\nA non-lined canal is a canal that has not been lined with any material, such as concrete, stone masonry, soil cement, or concrete flume. This type of canal is more prone to erosion and requires more frequent maintenance. A lined canal, on the other hand, is a canal that has been lined with a material such as concrete, stone masonry, soil cement, or concrete flume. This type of canal is more resistant to erosion and requires less frequent maintenance. Additionally, a lined canal following repairs, as shown in Figure 71, will have a more even flow of water and will be less likely to experience flooding or other water-related issues.",
-        "Match":"NO"
+        "Question": "How does tidal circulation affect estuarine outflow plumes?",
+        "Answer": "\nTidal circulation affects estuarine outflow plumes by enhancing vertical (tidal) mixing, tidal straining, and subtidal flow nonlinearities. These mechanisms can lead to more symmetric plume shapes, limit the coastal jet, restrict the plume advection in the across-shelf direction, and decrease the upshelf and downshelf penetration. Higher tidal amplitudes tend to favor bottom-advected plumes, while stronger river discharge tends to stratify the water column and develop surface-advected plumes.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the potential benefits of grey-green solutions for agricultural resilience?",
-        "Answer":"\nPotential benefits of grey-green solutions for agricultural resilience include mitigating rainfall and drought extremes, supporting adaptation in times of altered social-ecological relationships, providing a vital component of water, flood, and agriculture management programmes, and helping to ensure water security and agricultural sustainability in the long term. Grey-green solutions can also help to reduce the high cost of grey-led water management and address multiple water challenges.",
-        "Match":"YES"
+        "Question": "When were wells D, E, and F officially abandoned and why?",
+        "Answer": "\nWells D, E, and F were officially abandoned in 1986 due to high chloride levels (saltwater intrusion).",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are some of the anthropogenic drivers of environmental change in deltas, according to the references cited in the paper?",
-        "Answer":"\nAnthropogenic drivers of environmental change in deltas, according to the references cited in the paper, include sea-level rise, energy cost and availability, saltwater intrusion, crop salt tolerance, sediment cohesion, sea-level rise, sediment starvation, and tidal amplification.",
-        "Match":"YES"
+        "Question": "How does severe salinity intrusion impact the distribution of rice planting areas in coastal provinces of the Mekong Delta?",
+        "Answer": "\nSevere salinity intrusion can cause a decrease in the distribution of rice planting areas in coastal provinces of the Mekong Delta. Rice areas affected by drought and salinity intrusion rapidly increased from 139,000 ha in mid-March 2016 to 224,552 ha by mid-April 2016. The Ministry of Agriculture and Rural Development (MARD) reported that saltwater intrusion appeared two months earlier than previous years due to serious river water shortage. In the winter-spring crop 2015\u20132016, more than 339,220 ha of rice in coastal Mekong Delta provinces were affected by saltwater intrusion and drought, accounting for 35.5% of the rice-producing area in these localities and 21.9% of region\u2019s total-rice producing area. Of the 339,200 ha, 104,000 ha were severely impacted. This can lead to a decrease in the distribution of rice planting areas in coastal provinces of the Mekong Delta.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How was the EC meter calibrated before measuring soil suspensions?",
-        "Answer":"\nThe EC meter was calibrated by KCl standard solution (1.413 dS\/m) (Cat. No. 2974326, Hach Company, Loveland, CO, USA) prior to soil suspensions measurement.",
-        "Match":"YES"
+        "Question": "What are the hybridized solutions to water resources management in Burkina Faso, India, and Peru?",
+        "Answer": "\nHybridized solutions to water resources management in Burkina Faso, India, and Peru may include a combination of traditional water management practices, such as rainwater harvesting, with modern technologies, such as desalination and wastewater treatment. Other solutions may include the use of artificial recharge systems, water conservation and reuse, and the implementation of water-efficient irrigation systems. Additionally, the use of remote sensing and geographic information systems (GIS) can help to identify areas of water scarcity and inform the development of water management strategies.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the overview of coastal aquifers in Europe and their management?",
-        "Answer":"\nCoastal aquifers in Europe are facing increasing pressure from overexploitation and saltwater intrusion, leading to groundwater depletion and conflicts over the use, protection, and management of the coastal groundwater resources. In particular, storm surges can cause vertical infiltration of saltwater into shallow aquifers, and in some areas, the distribution of saline groundwater covers up to 84% of the aquifer. To manage and develop the policy of the groundwater resources, regional monitoring networks are important. In addition, early warning systems for depletion and saltwater intrusion, protection zones, and reduced groundwater exploitation should be implemented, as well as increased use of other water sources such as artificial groundwater recharge, rainwater harvesting, and surface water.",
-        "Match":"YES"
+        "Question": "What are the challenges associated with outdated irrigation structures and the usage of irrigation canals for drainage purposes?",
+        "Answer": "\nThe challenges associated with outdated irrigation structures and the usage of irrigation canals for drainage purposes include unplanned irrigation, low quality construction, low drainage capacity, and improper maintenance. Unplanned irrigation can lead to water being delivered to some farmlands more than necessary while less water is distributed to others. Low quality construction can lead to cracks on concrete structures, uneven bottoms of canals, and soil erosion in construction sites. Low drainage capacity can lead to flood water overflowing from drainage canals and reservoirs and staying in farmlands for a long period. Improper maintenance can lead to the accumulation of mud and debris in canals, weed overgrowth, and the accumulation of wood and branches in weir aprons.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What factors contribute to the fluctuation of water flow in the M\u00ea C\u00f4ng river?",
-        "Answer":"\nFactors that contribute to the fluctuation of water flow in the M\u00ea C\u00f4ng river include reduced precipitation, increased irrigation demand in the dry season, operation of upstream hydropower plants, drought, high temperatures, insufficient rainwater, and lack of flood water in the Tonle Sap area.",
-        "Match":"YES"
+        "Question": "How does the 2008 bathymetry affect saltwater intrusion in the VMD?",
+        "Answer": "\nThe 2008 bathymetry has a significant impact on saltwater intrusion in the VMD. By deepening the riverbeds within the VMD, the 3D subprocesses of upstream salt transport are activated and/or magnified, which can amplify saltwater intrusion. Additionally, the increased strati\ufb01cation due to the deeper channels can lead to increased gravitational circulation and tidal straining, further amplifying saltwater intrusion. It is estimated that approximately 10 km of additional saltwater intrusion can be directly associated with riverbed level incision.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the width of the delta affect the duration of freshwater conditions within different generations?",
-        "Answer":"\nThe width of the delta affects the duration of freshwater conditions within different generations in that the generation closest to the delta apex (Generation A) has the longest section including areas with higher salinity in large lateral distances from the river, and thus has the shortest duration of freshwater conditions. On the other hand, the most distant section (Generation C) covers the smallest delta section and thus has the longest duration of freshwater conditions. Generation B, which has a medium width, remains fresh for a longer period of time than either Generation A or C.",
-        "Match":"YES"
+        "Question": "What is the R2 value for each of the variables in the regression analysis?",
+        "Answer": "\nThe R2 value is not provided in the context information.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the cost of installing pipeline connections between Miami-Dade County WWS and Dania Beach compare to the original cost?",
-        "Answer":"\nThe original cost of installing a pipeline connection between Miami-Dade County WWS and Dania Beach is $22 million. With compounding interest and inflation, the cost increases to $121.96 million.",
-        "Match":"YES"
+        "Question": "What is the focus of the finite volume model described in reference 30?",
+        "Answer": "\nThe focus of the finite volume model described in reference 30 is to design an early warning system for groundwater level depletion and saline intrusion into the aquifers of the Ca Mau peninsula.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How often do wet periods occur during the winter-spring rice cropping season?",
-        "Answer":"\nOn average, 96% of the entire study area will experience a very slight wet period (SPI \u22650.25) for the winter-spring rice cropping over a 4-year return period.",
-        "Match":"YES"
+        "Question": "How does the excess capacity of the water system in Fort Lauderdale compare to the projected demand in Dania Beach in 2050?",
+        "Answer": "\nThe excess capacity of the water system in Fort Lauderdale far exceeds the projected demand in Dania Beach in 2050.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What communication channels were used to disseminate information and increase public awareness about drought and saline intrusion control measures?",
-        "Answer":"\nMass media, social networks, cell phone messages, and direct communication from local authorities were used to disseminate information and increase public awareness about drought and saline intrusion control measures.",
-        "Match":"YES"
+        "Question": "How does the disaster management in the 2020 drought compare to the 2015-2016 drought in terms of mitigation, preparedness, response, and recovery?",
+        "Answer": "\nThe disaster management in the 2020 drought is more comprehensive than the 2015-2016 drought in terms of mitigation, preparedness, response, and recovery. In the preparedness aspect, authorities and local people had adequate preparation for the 2020 drought due to the drought and saltwater intrusion situation being forecasted four months before the start of the dry season. Furthermore, policies were issued in a timely manner to implement solutions to respond to drought and saline intrusion and support local people. The irrigation system in 2020 was also notably superior to that of 2015-2016, positively impacting responses to drought and saline intrusion. Additionally, sowing dates were shifted up 10 to 20 days earlier than in previous years to avoid the high risk of drought and saline intrusion, and all resources were devoted to protecting existing areas, rather than planting new trees and crops. Communication work was also emphasized to increase public awareness, disseminate information, and guide drought and saline intrusion control measures.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How much is the average sea level rise estimated to be per year in the VMD?",
-        "Answer":"\n0.88 cm per year",
-        "Match":"YES"
+        "Question": "Why is it important to clean weeds in a canal?",
+        "Answer": "\nIt is important to clean weeds in a canal to ensure that the canal is not blocked and that water can flow through it properly. Weeds can impede the flow of water and reduce the drainage capacity of the canal, which can lead to flooding and other issues.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How do marine transgression and regression cycles impact the composition of groundwater in the Mekong Delta?",
-        "Answer":"\nMarine transgression and regression cycles can have a significant impact on the composition of groundwater in the Mekong Delta. During transgression, seawater can intrude into the groundwater system, leading to an increase in salinity. This can cause a decrease in the availability of freshwater resources and an increase in the concentration of dissolved salts. During regression, the seawater can be pushed back out of the groundwater system, leading to a decrease in salinity and an increase in the availability of freshwater resources.",
-        "Match":"YES"
+        "Question": "How can storage capacity be increased in the irrigation sector?",
+        "Answer": "\nTo increase storage capacity in the irrigation sector, it is necessary to increase the available freshwater for irrigation. This can be done by increasing the water storage capacity of reservoirs and ponds, and reducing water leakages by removing the accumulated mud, rehabilitating cracks on their bodies, or placing impermeable sheets on their banks. Additionally, recycling irrigation water and treating and reusing wastewater from villages can also contribute to increasing the available freshwater for irrigation.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the extent of saltwater intrusion in the Dinh Trung and Binh Thoi communes in terms of salinity levels?",
-        "Answer":"\nIn Dinh Trung commune, salinity levels range from 17-20\u2030, while in Binh Thoi commune, salinity levels range from 20-22\u2030.",
-        "Match":"YES"
+        "Question": "What is the scale and coordinate system of the land use map of Tra Vinh Province?",
+        "Answer": "\nThe scale and coordinate system of the land use map of Tra Vinh Province is 30 meters resolution and cartographic projection with terrain corrections.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the vision of the National Strategy for Natural Disaster Prevention, Control, and Mitigation to 2050?",
-        "Answer":"\nThe vision of the National Strategy for Natural Disaster Prevention, Control, and Mitigation to 2050 is to reduce people's vulnerability to natural hazards, promote community resilience to natural disasters, and enhance the adaptive capacity of communities to climate change.",
-        "Match":"NO"
+        "Question": "How does the freshwater velocity (FWV) differ between the bathymetry-controlled scenarios and the river-dominated scenarios during the wet season?",
+        "Answer": "\nThe FWV of the bathymetry-controlled scenarios is higher than the two river-dominated scenarios during the wet season. The difference between the river and tidally influenced cases becomes larger due to the increased mixing caused by the high river discharge. The FWV of the microtide and mesotide scenarios are comparable at most times, but the maximum FWV occurs in the middle of the year.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What does Figure 10 represent in terms of the collected soil samples in April 2016?",
-        "Answer":"\nFigure 10 represents the average salinity index (SI) of the soil samples collected in April 2016 from November 2015 to April 2016.",
-        "Match":"YES"
+        "Question": "How might income effects be smoothened over a longer period of time for households affected by environmental events?",
+        "Answer": "\nHouseholds affected by environmental events may be able to smooth income effects over a longer period of time by diversifying their income sources, accessing microcredits and formal bank accounts, and increasing local non-agricultural employment opportunities. Additionally, supportive strategies such as capacity building to switch from rice agriculture and guiding the spontaneous migration of rural poor from exposed areas may help to increase the socioeconomic resilience of households.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the range of horizontal hydraulic conductivity for the Upper-Middle Pleistocene aquifer?",
-        "Answer":"\n1.0 - 40 m\/day",
-        "Match":"YES"
+        "Question": "What methodology was used to design the groundwater level and salinity monitoring networks in Tra Vinh province?",
+        "Answer": "\nA combination of groundwater modeling and geostatistical methods was used to design the groundwater level and salinity monitoring networks in Tra Vinh province. The methodology included constructing a conceptual hydrogeological model, constructing a 3D transient groundwater flow model and calibrating it with groundwater time series from 11 monitoring wells, constructing a 3D saltwater transport model, preparing contour maps of groundwater levels and salinity distribution, selecting fictitious monitoring locations, reading groundwater level and salinity values from the contour maps, using Kriging methods to fit variogram models and construct contour maps of groundwater levels and salinity, and assessing the monitoring network configuration.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are some water storage facilities that can be used to deliver water to each farmland?",
-        "Answer":"\nPipelines, reservoirs, and ponds can be used to deliver water to each farmland. Additionally, rotating water delivery among tertiary canals can be used to ensure that each farm plot receives water in turn.",
-        "Match":"YES"
+        "Question": "What section in Chapter 3 did Kaelyn primarily contribute to?",
+        "Answer": "\nSection 3.4.4",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How has the Ba Lai irrigation scheme impacted farmers in Ben Tre province?",
-        "Answer":"\nThe Ba Lai irrigation scheme has had mixed impacts on farmers in Ben Tre province. On one hand, it has helped to reduce the effects of saltwater intrusion and drought, providing a more reliable source of water for agricultural production. On the other hand, it has raised suspicions among scientists and local communities concerning how this conventional water management approach might successfully deal with climatic events (e.g., extended drought) in the long term as well as achieve sustainable agricultural development in the delta.",
-        "Match":"YES"
+        "Question": "Why is it important to measure soil compaction in irrigation?",
+        "Answer": "\nMeasuring soil compaction is important in irrigation because it can help determine the quality of the soil and how well it can absorb and retain water. This can help farmers determine the best irrigation practices for their crops and ensure that they are using the most efficient methods to maximize their yields.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What is the elevation of sample MP01?",
-        "Answer":"\n6 m",
-        "Match":"YES"
+        "Question": "How can the water storage capacity be secured during a heavy rain?",
+        "Answer": "\nTo secure the water storage capacity during a heavy rain, a slit can be installed into a spillway. Lowering the water level only requires removing a board out of the slit. Additionally, the depth of the slit can be adjusted to further secure the water storage capacity.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How much would it cost to construct a pipeline from Lake Okeechobee to Dania Beach?",
-        "Answer":"\nIt is not possible to answer this question without additional information. The context information provided does not include any information about the cost of constructing a pipeline from Lake Okeechobee to Dania Beach.",
-        "Match":"NO"
+        "Question": "How many households were selected for the interviews in this study?",
+        "Answer": "\n196 households were selected for the interviews in this study.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How many authors are mentioned in the context information?",
-        "Answer":"\nSix authors are mentioned in the context information.",
-        "Match":"NO"
+        "Question": "What is the purpose of Table 2 in the document?",
+        "Answer": "\nThe purpose of Table 2 in the document is to provide information on the irrigation structures in the Mekong Delta.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the components of the automatic irrigation system?",
-        "Answer":"\nThe components of the automatic irrigation system are: automatic hydrants, water level sensors, thermometer sensors, a cloud server, and a tablet or a smart phone.",
-        "Match":"YES"
+        "Question": "How does the physical change of droughts in the MDV from 1985 to 2020 compare to the droughts between 2015-2016 and 2020?",
+        "Answer": "\nThe drought duration and frequency in the coastal provinces of the MDV have been getting longer and denser from 1986 to 2020. It appears that droughts occurred more locally before 2015, whereas since 2015, severe and extreme droughts have affected all provinces of the MDV. The maximum SPEI-12 values also indicate that the drought has become more intense in recent years. Therefore, the physical change of droughts in the MDV from 1985 to 2020 is more severe than the droughts between 2015-2016 and 2020.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What was the goal of the Major Qualifying Project mentioned in the context?",
-        "Answer":"\nThe goal of the Major Qualifying Project was to identify problems in water quality and supply in Dania Beach, Florida caused by saltwater intrusion and create a long-term management plan to address these problems.",
-        "Match":"YES"
+        "Question": "How are the direct impacts of the study measured at the commune level?",
+        "Answer": "\nAt the commune level, the direct impacts are measured by the rice yield loss ratio in the event year, the fraction of poor households in the commune, and the salt exposure loss (SEL) index in both 2014 and 2016.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the function of a spillway in a canal system?",
-        "Answer":"\nThe function of a spillway in a canal system is to provide a controlled release of water from the canal to prevent flooding and reduce the risk of damage to structures.",
-        "Match":"YES"
+        "Question": "What is the distribution ratio of discharge to the Co Chien River in 2015 and 2020?",
+        "Answer": "\nIn 2015, the distribution ratio of discharge to the Co Chien River was 53%. In 2020, the distribution ratio of discharge to the Co Chien River was 59%.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the nanofiltration system achieve a higher recovery rate compared to other processes?",
-        "Answer":"\nThe nanofiltration system achieves a higher recovery rate compared to other processes by operating at a higher pressure than other systems. This higher pressure allows the nanofiltration system to effectively treat saltwater, which other systems are not able to do. The nanofiltration system also uses reverse osmosis membranes, which help to further increase the recovery rate.",
-        "Match":"NO"
+        "Question": "What is the purpose of the Tampa Bay Desalination Plant?",
+        "Answer": "\nThe purpose of the Tampa Bay Desalination Plant is to produce 25 MGD of treated water for the surrounding area. The plant uses reverse osmosis as the primary treatment method.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What socio-economic impacts have drought and saline intrusion had on the Mekong Delta, such as water shortages and crop failures?",
-        "Answer":"\nDrought and saline intrusion have had a significant impact on socio-economic development in the Mekong Delta, including water shortages, crop failures, and reduced rice production and exports. Additionally, the increased frequency and severity of drought and saline intrusion have caused increased vulnerability to other hazards, such as floods and landslides.",
-        "Match":"NO"
+        "Question": "What mechanisms for smoothing adaptation are tested in the research?",
+        "Answer": "\nThe research is testing the role of local financial market development and distance to urban centers in smoothing adaptation to salinization and reducing income losses. Specifically, the research is testing whether fewer credit constraints help farmers to better adapt to salinization through production switching or diversifying and thus to better mediate income losses, and whether being closer to large cities further induces labor to leave the agricultural sector or migrate in response to salinization.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How have water disruptions from the Mekong River and saltwater intrusion affected agrarian communities in the delta?",
-        "Answer":"\nWater disruptions from the Mekong River and saltwater intrusion have had a significant impact on agrarian communities in the delta. Severe drought and salinity intrusion have affected 11 of the 13 provinces in the Mekong Delta, leaving 400,000 ha of cropland fallow and causing 208,394 households to lack freshwater for domestic use. Rice areas affected by drought and salinity intrusion rapidly increased from 139,000 ha in mid-March 2016 to 224,552 ha by mid-April 2016. The Government of Viet Nam reported that more than 200,000 tonnes of rice were damaged, resulting in a loss of over VND 1 trillion (USD 44.64 million) to the Mekong Delta region. In the coastal zones, the total area affected by salinity is about 2 million ha, and farmers have been unable to cultivate their preferred agricultural crops due to high salinity concentrations and water deficiencies during the dry season.",
-        "Match":"YES"
+        "Question": "What is the main purpose of the article and why is the information presented in it important for further research?",
+        "Answer": "\nThe main purpose of the article is to apply an integrated approach to address the complex interactions of hydro-meteorological hazards, salt water intrusion, and agricultural productivity. This approach is highly novel as it addresses the complex nexus interaction between food-water-climate change. The information presented in the article is important for further research because it highlights how to utilize the minimum available data for meaningful scientific works and policy relevant information for the sustainable and resilient development of an agricultural area located in a deltaic plain.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Where is Xeo Ro Station located and what river is it along?",
-        "Answer":"\nXeo Ro Station is located in the Mekong Delta, Vietnam, along the Co Chien River.",
-        "Match":"NO"
+        "Question": "What types of events have studies primarily focused on when operationalizing vulnerability and resilience based on their impacts?",
+        "Answer": "\nStudies have primarily focused on fast-onset events such as tropical storms and floods when operationalizing vulnerability and resilience based on their impacts.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the challenges in growing maize as an alternative crop in the MRD?",
-        "Answer":"\nThe challenges in growing maize as an alternative crop in the MRD include the need for bed formation prior to sowing, the requirement for aerobic soil conditions, the need for modifications to harvesting equipment, and the high cost of inputs such as fertilisers and pesticides. Additionally, farmers may need to become familiar with the production cycle and labour requirements for maize. Finally, there may be a need to establish a market chain for maize in the MRD.",
-        "Match":"YES"
+        "Question": "What are the eight primary components used in the calculation of the livelihood vulnerability index (LVI)?",
+        "Answer": "\nThe eight primary components used in the calculation of the livelihood vulnerability index (LVI) are: exposure to saltwater intrusion (E1), natural hazard (E2), socio-demographic profile (AC1), livelihood strategies (AC2), social networks (AC3), health (S1), finance (S2), and domestic water use (S3).",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does organic matter oxidation and reduction affect HCO3- concentrations in groundwater?",
-        "Answer":"\nOrganic matter oxidation and reduction can affect HCO3- concentrations in groundwater by increasing the concentration of HCO3- originating from organic matter oxidation, shifting the calcium carbonate equilibria due to an increase in PCO2 and changes in pH, and causing dissolution.",
-        "Match":"YES"
+        "Question": "What is the purpose of the master plan for the Mekong Delta in the period 2021-2030, with a vision to 2050?",
+        "Answer": "\nThe purpose of the master plan for the Mekong Delta in the period 2021-2030, with a vision to 2050 is to provide improved data needs for the application of smart technologies in agricultural production and simultaneously adapting to climate change. This includes improved monitoring of resources and environmental changes in the event of droughts and salinity variability due to changes in both climate and sea level, as well as the development of forecasting and warning systems for the early prediction of changes.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Which criterion is related to the technological feasibility of the options?",
-        "Answer":"\nTechnical feasibility.",
-        "Match":"YES"
+        "Question": "How can the water level be lowered in a reservoir or pond?",
+        "Answer": "\nTo lower and control the water level in a reservoir or a pond, a slit can be installed into a spillway. Water storage capacity during a heavy rain can be secured in accordance with the depth of a slit. Lowering the water level only requires removing a board out of a slit.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the thickness of the Cenozoic deposits in the Ca Mau peninsula on average?",
-        "Answer":"\nThe Cenozoic deposits in the Ca Mau peninsula are 300\u2013400 m thick on average.",
-        "Match":"YES"
+        "Question": "How does drought contribute to severe saltwater intrusion events?",
+        "Answer": "\nDrought contributes to severe saltwater intrusion events by decreasing the levels of groundwater in aquifers, which can cause saltwater to be recharged into the aquifers. This can occur when there is no rainwater seeping into the ground and entering into aquifers, and when the removal of water from aquifers is faster than it can be recharged. Droughts can also cause coastal flooding, which can introduce an increased volume of saltwater into coastal aquifers and surface water sources.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the project aim to reduce dependence on natural resources?",
-        "Answer":"\nThe project aims to reduce dependence on natural resources by managing water demand, developing new water retention\/transmission systems, conserving and rehabilitating rivers, canals, and natural water sources, developing irrigation and increasing irrigation areas through the basin-based approach, improving the irrigation and water allocation management, preventing and mitigating water hazards, building and enhancing the collaboration network and participation in water management, and applying and transferring technologies for collecting, storing, and treating water onsite.",
-        "Match":"YES"
+        "Question": "How many people does the Miramar East Surface Water Treatment Plant serve?",
+        "Answer": "\nEstimated 70,000 people.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the purpose of canal lining in the irrigation sector?",
-        "Answer":"\nThe purpose of canal lining in the irrigation sector is to reduce water seepage loss, enhance durability, improve service life, conserve water, and reduce maintenance costs.",
-        "Match":"YES"
+        "Question": "What adaptation strategies were implemented in response to the drought and saline intrusion in 2020?",
+        "Answer": "\nAdaptation strategies implemented in response to the drought and saline intrusion in 2020 included building temporary dams, dredging of canals, water storage, shifting sowing dates earlier than in previous years, restructuring farming to use less water than rice in areas prone to drought and saline intrusion, and devoting resources to protecting existing areas rather than planting new trees and crops. Additionally, communication work was emphasized to increase public awareness, disseminate information, and guide drought and saline intrusion control measures.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the land use changes around Roi-Et town between 1987 and 2005?",
-        "Answer":"\nIt is not possible to answer this question with the given context information.",
-        "Match":"NO"
+        "Question": "What is the total amount of groundwater exploited in the whole region?",
+        "Answer": "\n453,850 m3/day",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Describe the process of constructing a soil cement lining for irrigation canals.",
-        "Answer":"\nSoil cement lining is constructed by mixing soil with cement and water and solidifying them. The soil and cement are mixed together in a ratio of 3 parts soil to 1 part cement. The mixture is then poured into the canal and spread evenly along the bank. The mixture is then compacted and allowed to dry. Finally, the surface is smoothed and sealed with a waterproof coating.",
-        "Match":"YES"
+        "Question": "What are the major threats to agricultural production in the Mekong Delta?",
+        "Answer": "\nThe major threats to agricultural production in the Mekong Delta are drought, water shortages, salt intrusion, and lack of irrigation systems.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How did the infrastructures established in 2020 help manage saline intrusion and reduce the impacts of drought?",
-        "Answer":"\nThe infrastructures established in 2020 helped manage saline intrusion by constructing new pumping stations and aqueducts, building temporary dams, dredging canals, and storing water. These measures allowed for the competent management of freshwater distribution against drought and salinity in an orderly and conflict-free manner amongst provinces and districts. Additionally, the infrastructures enabled early warning systems and adaptation strategies to be implemented, which helped reduce the impacts of drought and saline intrusion for 300,000 hectares.",
-        "Match":"YES"
+        "Question": "How does the saltwater intrusion impact the rice cultivation in the coastal provinces of the North Central region?",
+        "Answer": "\nThe saltwater intrusion has a damaging effect on rice cultivation in the coastal provinces of the North Central region. It has been identified as the most prominent hazard to agricultural production for farming households, with the irrigation threshold for salinity regarded as being detrimental to rice production being 4 g L-1. Saline intrusion has caused soil salinisation, leading to decreased long-term productive capacity as soil salts accumulate over time. In 2020, parts of the region declared emergencies with drought and salinity affecting over 100,000 ha of rice crop production as salt water intruded ~60 \u201370 km inland. It has been predicted that salt concentrations in 2050 will exceed 4 g L-1 up to 60 km upriver from the ocean, meaning that inland areas like Can Tho will be subjected to the same severe salinisation currently observed in coastal areas.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does participatory irrigation management (PIM) contribute to the maintenance and ownership of irrigation structures?",
-        "Answer":"\nParticipatory irrigation management (PIM) contributes to the maintenance and ownership of irrigation structures by empowering farmers to take over the authority to define what their irrigation services will be, who will provide them, and how and at what costs they will be provided. PIM also encourages collective action, such as group purchase of agricultural inputs, agribusiness venture development, and marketing. This leads to improved accountability to farmers of irrigation system management, more efficient and equitable water delivery, canal maintenance, and settlement of disputes.",
-        "Match":"YES"
+        "Question": "What are some traditional and new methods of monitoring saltwater intrusion?",
+        "Answer": "\nTraditional methods of monitoring saltwater intrusion include electrical resistivity tomography (ERT), groundwater withdrawals, and professional monitoring wells for groundwater level monitoring. New methods of monitoring saltwater intrusion include membrane filtration, reverse osmosis treatment plants, and nanofiltration.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the distinguishing characteristics of the Mekong Delta basin fill in the Tra Vinh area?",
-        "Answer":"\nThe distinguishing characteristics of the Mekong Delta basin fill in the Tra Vinh area are the stratigraphy formed during the process of transgression and regression events, the upper part with low permeability consisting of silt, clay, or silty clay (aquitards), and the lower part with high permeability (aquifers) which includes fine to coarse sand.",
-        "Match":"YES"
+        "Question": "Were the trends in drought conditions statistically significant at the Moc Hoa, Can Tho, Cang Long, Chau Doc, and Soc Trang stations?",
+        "Answer": "\nNo, the trends in drought conditions were not statistically significant at the Moc Hoa, Can Tho, Cang Long, Chau Doc, and Soc Trang stations.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the automatic salinity monitoring system work?",
-        "Answer":"\nThe automatic salinity monitoring system works by using field campaigns of EC measurements to measure the electrical conductivity (EC) values of domestic wells in the Tra Vinh province. Students from Ho Chi Minh City University of Technology are mobilized to measure EC values with EC meters guided by university lecturers. Local youth and women unions also participate in the monitoring campaigns. The data collected is then used to create spatial distribution maps of groundwater salinity to delineate the interfaces of fresh\/salt water in the aquifers. A number of monitoring wells are then assigned along the interfaces to observe the changes of TDS concentration monthly. The data collected is then used to construct numerical groundwater models to enhance understanding of the conceptual model and provide a first estimate of spatial-temporal variations of groundwater levels (GWLs) and salinity distribution. The models are then calibrated using the trial-and-error method to obtain the best fit to observed GWL fluctuations and TDS concentrations. Finally, the contour maps of groundwater salinity (TDS) from the SEAWAT model are used to select locations of monitoring wells for measuring salinity with EC meters.",
-        "Match":"YES"
+        "Question": "How do the salinity distributions in the long reach model differ from those in the short reach model?",
+        "Answer": "\nThe salinity distributions in the long reach model are more symmetric than in the short reach model, and the microtide scenario exhibits the salinity\u2013stream order relationship in the entire simulation period in contrast to what is observed in the short reach model. Additionally, the transition of the buoyant plume's vertical structure from surface to bottom-advected type as the amplitude increases can be observed in the long reach model.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the role of the Center for Space and Remote Sensing Research at National Central University in Taiwan?",
-        "Answer":"\nThe Center for Space and Remote Sensing Research at National Central University in Taiwan is a research center that focuses on studying and understanding the Earth and its planetary systems. The center conducts research on topics such as climate change, natural disasters, and space exploration. The center also provides resources and expertise to help further the understanding of the Earth and its planetary systems.",
-        "Match":"NO"
+        "Question": "How can the use and management of groundwater help mitigate drought impacts and secure water supply during emergencies?",
+        "Answer": "\nThe use and management of groundwater can help mitigate drought impacts and secure water supply during emergencies by increasing the available freshwater for irrigation and providing an equitable supply of water for all affected people. Groundwater can also be used to capture flood water and divert it towards receiving aquifers, which can help increase supplies and mitigate flood impacts. Additionally, land consolidation can help improve water supply and drainage, reduce water delivery loss, and create lands for other uses.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the role of soil moisture monitoring in improving water use efficiency and minimizing the application of saline water?",
-        "Answer":"\nSoil moisture monitoring can help producers develop an irrigation schedule that will improve water use efficiency and minimize the amount of saline water applied. Tensiometers can be an effective tool to monitor soil moisture and apply irrigation at the required time to maintain adequate soil moisture. The Chameleon soil moisture sensor is a cost-effective device that provides real-time, easily gathered information regarding a crop's soil moisture status. This allows farmers to implement irrigation schedules based on quantitative data that saves significant amounts of water by reducing the frequency and duration of watering.",
-        "Match":"YES"
+        "Question": "How do coastal aquifers experience salinization and freshening processes?",
+        "Answer": "\nCoastal aquifers experience salinization and freshening processes through cation exchange reactions. During salinization, fresh Ca2+-dominated groundwater is enriched in Na+ and Mg2+, while Na+ exchanges divalent cations Ca2+ and Mg2+ from sedimentary rocks forming Ca-Cl and Na-Mg-Cl waters. Simultaneously, overall salinity increases, while also the proportion of divalent cations increases. Conversely, during freshening, freshwater of Ca-HCO3 type intrudes the saline aquifer, exchanging Na+ on mineral surfaces with Ca2+ and Mg2+, and the water type changes to the characteristic Na-HCO3. The Na+/Cl- ratio increases above the level of seawater, while Ca2+ as well as Mg2+ become depleted.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the relationship between salinity and river discharge in the idealized delta model?",
-        "Answer":"\nThe relationship between salinity and river discharge in the idealized delta model is negatively correlated and exponentially decaying, according to Matsoukis et al. (2021).",
-        "Match":"YES"
+        "Question": "What is the focus of the research conducted by the \"Vi\u1ec7n Th\u1ed5 nh\u01b0\u1ee1ng N\u00f4ng ho\u00e1\"?",
+        "Answer": "\nVi\u1ec7n Th\u1ed5 nh\u01b0\u1ee1ng N\u00f4ng ho\u00e1 \u0111ang nghi\u00ean c\u1ee9u v\u1ec1 c\u00e1c gi\u1ea3i ph\u00e1p \u0111\u1ec3 gi\u1ea3m thi\u1ec3u \u1ea3nh h\u01b0\u1edfng c\u1ee7a x\u00e2m nh\u1eadp m\u1eb7n v\u00e0o m\u00f4i tr\u01b0\u1eddng, bao g\u1ed3m c\u00e1c ho\u1ea1t \u0111\u1ed9ng nh\u01b0 t\u1ed5 ch\u1ee9c c\u00e1c cu\u1ed9c thi t\u00ecm hi\u1ec3u, c\u00e1c ho\u1ea1t \u0111\u1ed9ng tr\u1ed3ng r\u1eebng ng\u1eadp m\u1eb7n, c\u00e1c chi\u1ebfn d\u1ecbch b\u1ea3o v\u1ec7 m\u00f4i tr\u01b0\u1eddng, tham quan c\u00e1c m\u00f4 h\u00ecnh sinh k\u1ebf th\u00ed ch\u1ee9ng v\u1edbi x\u00e2m nh\u1eadp m\u1eb7n, n\u00e2ng cao nh\u1eadn th\u1ee9c c\u1ed9ng \u0111\u1ed3ng v\u1ec1 \u1ea3nh h\u01b0\u1edfng c\u1ee7a x\u00e2m nh\u1eadp m\u1eb7n do bi\u1ebfn \u0111\u1ed5i kh\u00ed h\u1eadu v\u00e0 c\u00e1c t\u00e1c \u0111\u1ed9ng \u0111\u1ebfn s\u1ea3n xu\u1ea5t n\u00f4ng nghi\u1ec7p, v\u00e0 c\u00e1c gi\u1ea3i ph\u00e1p \u0111\u1ec3 h\u1ea1n ch\u1ebf t\u01b0\u1edbi n\u01b0\u1edbc nhi\u1ec5m m\u1eb7n cho c\u00e2y tr\u1ed3ng.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the discharge distribution ratio from My Thuan to the Co Chien River in the years 2015 and 2020?",
-        "Answer":"\nThe discharge distribution ratio from My Thuan to the Co Chien River in 2015 was 53% and in 2020 was 59%.",
-        "Match":"YES"
+        "Question": "What is the significance of the salinity increments being at 1 g/kg?",
+        "Answer": "\nThe significance of the salinity increments being at 1 g/kg is that it is the maximum amount of salinity that drinking water should contain in order to be safe for human consumption. High salinity levels can also cause plant stress and mortality, as well as hamper tree production.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Which alternative crop options demonstrate high salt tolerance and successful grain production?",
-        "Answer":"\nCowpea (Vigna unguiculata), quinoa (Chenopodium quinoa), and mustard greens (Brassica juncea) demonstrate high salt tolerance and successful grain production.",
-        "Match":"YES"
+        "Question": "What are the reasons for the lack of freshwater resources and how can this issue be addressed?",
+        "Answer": "\nThe lack of freshwater resources in the Mekong Delta is due to overexploitation of groundwater, salinity intrusion, soil erosion, and barriers to fish migration. To address this issue, measures should be taken to reduce water quantity and improve water quality, such as creating water distribution plans, improving construction quality of irrigation structures, rehabilitating and renewing aged structures, and increasing drainage capacity. Additionally, measures should be taken to address fish migration barriers, such as creating fish passage structures and prioritizing existing fish passage barriers.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the main causes of saltwater intrusion in Miami-Dade County?",
-        "Answer":"\nThe main causes of saltwater intrusion in Miami-Dade County are sea level rise, increased storm surge, and changes in groundwater flow patterns due to human activities such as pumping and development.",
-        "Match":"NO"
+        "Question": "How does improper irrigation project management contribute to water wastage and wastewater generation?",
+        "Answer": "\nImproper irrigation project management contributes to water wastage and wastewater generation by leading to oversupply of water to farmlands, low construction quality of structures, aged structures that have not been rehabilitated or renewed, and low drainage capacity. This results in water draining without being supplied to farmlands, water leakage, and a great deal of water flowing in canals and being drained as dead flow.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the three main types of groundwater wells and how are they constructed?",
-        "Answer":"\nThe three main types of groundwater wells are dug wells, driven wells, and drilled wells. Dug wells are constructed manually using hand tools or equipment such as a backhoe. Driven wells are created by driving a pipe into the ground with a small diameter of about 2 inches and usually has a screen to filter out the soft soil. Drilled wells require a drilling rig to penetrate approximately 100 -400 feet below the surface into fractured bedrock.",
-        "Match":"YES"
+        "Question": "Calculate the population forecast for 2030, 2040, and 2050.",
+        "Answer": "\nThe population forecast for 2030, 2040, and 2050 cannot be calculated without more information. The Incremental Increase Method requires the population of the previous decade, the average population increase per decade, and the average incremental increase per decade. Without this information, it is not possible to calculate the population forecast for 2030, 2040, and 2050.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does groundwater interact with rising sea levels?",
-        "Answer":"\nGroundwater near coastal areas is at a higher risk of contamination due to impacts of climate change that include sea-level rise. When sea-levels rise, saltwater is likely to enter the groundwater, reducing the availability of freshwater for coastal regions as a result. This same impact occurs when too much water is extracted from aquifers, resulting in saltwater entering the groundwater as a means of recharging the aquifer. If too much saltwater gets into the groundwater, the groundwater's salt concentration can become too high for human use and consumption.",
-        "Match":"YES"
+        "Question": "What is the role of farmers and local governments in the irrigation planning process?",
+        "Answer": "\nFarmers and local governments have an important role to play in the irrigation planning process. Farmers need to provide information on water sources, such as water levels in a river or a reservoir and water flow in canals, for rational judgments. Local governments need to advise farmers and supervise the Water User Association (WUA) management. Dialogue between farmers and local governments should be rationally proceeded in line with the principle of equality. For intersectoral issues such as droughts, water quality, and other environmental degradation, WUAs, governments, and other interest groups need to discuss solutions and take action by creating water management councils composed of them. Farmers also need to participate in the management of irrigation facilities and pay water charges to the WUAs. Local governments need to provide financial support to the WUAs until their management is running smoothly and allocate the cost appropriately with a combination of public finances and contributions from the farmers.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How were the primary data collected for the research?",
-        "Answer":"\nThe primary data for the research was collected through in-depth interviews (in person and online) with agricultural and hydrological experts from local and regional research institutions, stakeholder workshops with leaders of provincial government agencies, and the collection of 184 in situ water- and soil samples.",
-        "Match":"YES"
+        "Question": "How does the lack of freshwater availability affect the economic development of the region?",
+        "Answer": "\nThe lack of freshwater availability in the region has a significant impact on the economic development of the region. Without access to a reliable source of freshwater, agricultural production is reduced, industries are unable to operate, and businesses are unable to expand. This can lead to a decrease in employment opportunities, a decrease in income, and an overall decrease in economic activity. In addition, the lack of freshwater availability can lead to an increase in water-related diseases, which can further reduce economic activity and increase healthcare costs.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How can climate change impact food security?",
-        "Answer":"\nClimate change can have a significant impact on food security. Higher temperatures can lead to increased evaporation rates from the soil, resulting in droughts that can cause crop failures and lead to higher food prices. Additionally, droughts can lead to an increased demand for electricity, which can put stress on the electrical supply grid. Sea level rise and extreme weather events can also lead to coastal erosion, destruction of coastal habitats, and saltwater intrusion into freshwater sources, all of which can further impact food security.",
-        "Match":"YES"
+        "Question": "How many wells have been permanently taken out of service in Dania Beach?",
+        "Answer": "\nFour wells have been permanently taken out of service in Dania Beach.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the consequences of drought hazards in the LMB?",
-        "Answer":"\nThe consequences of drought hazards in the LMB include reduced crop production, damage to irrigation structures such as dams, weirs, and canals, insufficient water resources for agriculture, interruption of the water supply to fields, and lower storage and drainage capacity. Additionally, salinity intrusion can occur, which affects almost 2 million hectares of land and negatively impacts rice yields. People in the LMB also fear the impact of climate change on agriculture, as it may exacerbate the damages caused by drought, flood, and salinity intrusion.",
-        "Match":"YES"
+        "Question": "What is the purpose of the vulnerability indicators mentioned in the document?",
+        "Answer": "\nThe purpose of the vulnerability indicators mentioned in the document is to measure the vulnerability and resilience of a given population by clustering composite indicators representing vulnerability and resilience. These indicators can also be used to measure the actual impacts of vulnerability and resilience.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How are grey-green solutions perceived by water managers in the context of water resource management?",
-        "Answer":"\nGrey-green solutions are perceived by water managers as an important complement to grey solutions, with the potential to address multiple water challenges. They are seen as a way to realize the interconnections between the natural and built environment and to enjoy the aggregate benefits of the two approaches. However, there is still a lack of understanding of how integrated solutions might support water retention for enhancing agricultural resilience in the water scarcity context of the Vietnamese Mekong Delta.",
-        "Match":"YES"
+        "Question": "What is the percentage of exploitation in the deeper aquifers in the groundwater system?",
+        "Answer": "\n70%.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"How much water does Broward County WWS currently supply to Dania Beach?",
-        "Answer":"\n22.65 MGD",
-        "Match":"YES"
+        "Question": "How does brackish water irrigation and straw mulching impact soil salinity and crop yields under monsoonal climatic conditions, as studied by Pang et al. (2010)?",
+        "Answer": "\nPang et al. (2010) found that brackish water irrigation and straw mulching can reduce soil salinity and improve crop yields under monsoonal climatic conditions. They found that the combination of brackish water irrigation and straw mulching was more effective in reducing soil salinity and increasing crop yields than either method alone. They also found that the effects of brackish water irrigation and straw mulching on soil salinity and crop yields were more pronounced in areas with higher levels of soil salinity.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What is the purpose of using concrete, mortar, or stones in lining the reservoir slopes?",
-        "Answer":"\nThe purpose of using concrete, mortar, or stones in lining the reservoir slopes is to prevent water leaking or stabilize the slopes.",
-        "Match":"YES"
+        "Question": "How many nodes and elements were included in the finite element mesh of the hydrogeological model?",
+        "Answer": "\n1,963,276 nodes and 1,056,390 elements.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What does the Mekong River Commission state about the boundaries and information shown on maps in their work?",
-        "Answer":"\nThe Mekong River Commission does not explicitly state anything about the boundaries and information shown on maps in their work. However, they do provide detailed information about the Mekong Delta region, including research on geological structure, land-use dynamics, water resources management, and coastal evolution.",
-        "Match":"NO"
+        "Question": "How much of the annual crop area in the Central Highlands is exclusively planted with rice?",
+        "Answer": "\n99,664 ha",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How do conventional, 'grey' approaches to water management differ from the proposed 'grey green' solutions?",
-        "Answer":"\nConventional, 'grey' approaches to water management prioritize hard infrastructures such as dykes to address human- and climate change-driven water problems. These solutions are believed to be highly effective due to their immediate response to acute risks, but they have several drawbacks. They can alter coastal morphology, leading to changes in ecosystems, and they are often expensive. In contrast, 'grey green' solutions prioritize green infrastructure and ecological systems to help sustain society and build resilience. These solutions are seen as a complement to grey solutions, and they are believed to have the potential to address multiple water challenges, mitigate rainfall and drought extremes, and support adaptation in times of altered social-ecological relationships.",
-        "Match":"YES"
+        "Question": "How does the MRC recommend Member Countries utilize the techniques and technologies mentioned in the Guidance?",
+        "Answer": "\nThe MRC recommends that its Member Countries select and utilize the techniques and technologies in accordance with their level of irrigation development and the challenges that they are currently facing.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the level of irrigation development differ among the MRC Member Countries?",
-        "Answer":"\nThe level of irrigation development among the MRC Member Countries varies. In the past 30 years, Lao PDR and Cambodia have had low development of their irrigation sectors compared to Thailand and Viet Nam, which had rapidly developed their irrigation infrastructures until the 2000s. The total developed irrigated area in the LMB is estimated at between 4.0 million ha and 5.0 million ha (MRC, 2018b). In hypothetical plans, Lao PDR, Cambodia and Thailand would dramatically increase their developed area, whereas there would be very limited development in Viet Nam (MRC, 2018e).",
-        "Match":"YES"
+        "Question": "What is the total area covered by all registered irrigation projects in Cambodia?",
+        "Answer": "\n1,093,000 ha",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the difference between recent large-scale seawater intrusion and the local downwards migration of shallow saline water?",
-        "Answer":"\nRecent large-scale seawater intrusion is the result of rapid rising sea levels in the Holocene transgression phase, which would have led to extensive seawater intrusion and salinization signatures. Local downwards migration of shallow saline water, on the other hand, is the result of high groundwater exploitation rates and high hydraulic connectivity within and across aquifers, which leads to the release of divalent cations in Pleistocene aquifers.",
-        "Match":"YES"
+        "Question": "How many provinces in the study area experienced extreme drought in 2020?",
+        "Answer": "\nFour out of seven provinces in the study area experienced extreme drought in 2020.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What is the population served by the City of Dania Beach Water Utility?",
-        "Answer":"\nThe population served by the City of Dania Beach Water Utility is over 30,000 people, with 60% of the population receiving water directly from the Dania Beach water treatment system.",
-        "Match":"YES"
+        "Question": "How much did the flow of unregistered extraction wells in the aquifer qp 2\u20133 increase during the model run?",
+        "Answer": "\n23%",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the water demand per capita in 2020, considering a 60% population served by Dania Beach?",
-        "Answer":"\nThe water demand per capita in 2020, considering a 60% population served by Dania Beach, is 120 GPD.",
-        "Match":"YES"
+        "Question": "Which country does the Mekong river flow through before entering Vietnam?",
+        "Answer": "\nThe Mekong river flows through China, Myanmar, Laos, and Thailand before entering Vietnam.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What is the significance of the over-depth salinity difference at a point along the thalweg in the Mekong Delta?",
-        "Answer":"\nThe over-depth salinity difference at a point along the thalweg in the Mekong Delta is significant because it indicates the impact of riverbed level changes on saltwater intrusion. Riverbed level changes can activate and\/or magnify 3D subprocesses of upstream salt transport, which can amplify saltwater intrusion. This can have a significant impact on agricultural production in the Mekong Delta, leading to losses of crops and domestic water shortages.",
-        "Match":"YES"
+        "Question": "How does salinity intrusion affect the revenue share from rice production?",
+        "Answer": "\nSalinity intrusion is estimated to decrease the revenue share from rice production by 1.1 percentage points. Both estimates are statistically significant at the 1% level.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Did both droughts have severe impacts on the socio-economy of the MDV?",
-        "Answer":"\nYes, both droughts had severe impacts on the socio-economy of the MDV. The 2015-2016 drought had a larger impact on agriculture, with an affected area of 100,116 ha, compared to 40,000 ha in the 2020 drought. The 2020 drought had a larger impact on aquaculture, with an affected area of 8,715.5 ha, compared to 1,072.4 ha in the 2015-2016 drought. Additionally, the 2020 drought caused water shortages for 96 thousand households, compared to 210 thousand households in the 2015-2016 drought. These impacts had a significant effect on the food security strategy of Vietnam, as well as the MDV's economic development, job creation, and agricultural exports.",
-        "Match":"YES"
+        "Question": "What are the requirements for implementing remote monitoring and control in irrigation systems?",
+        "Answer": "\nThe requirements for implementing remote monitoring and control in irrigation systems are: (1) Capture water flow and rainfall in an irrigation area, including the discharge from dams and reservoirs, intake from weirs and gates, and water flow in canals; (2) Deliver the necessary amount of water to each farmland by remotely monitoring and controlling water discharge, intake, and diversion from irrigation facilities; (3) Enhance awareness among farmers on saving water through a highly reliable water management control system; (4) Install a reliable, remote monitoring and control system; (5) Install telemonitoring equipment including a sensor and box, and a rain gage; (6) Consider the service life of the system (5-10 years); (7) Consider safety measures for a pipeline system; (8) Consider pipe type, pipe thickness, and earthquake resistance of pipe's body and joints; (9) Monitor and control water distribution to farmlands; (10) Respond to water flow and rainfall fluctuations within time units of hours or days; (11) Monitor and control each irrigation facility remotely.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How do the estuarine channels in Dai and Tieu differ from other channels in terms of strati\ufb01cation?",
-        "Answer":"\nThe estuarine channels in Dai and Tieu have more continuous SWI patterns and experience less temporal estuarine variability in terms of strati\ufb01cation compared to the other channels. During the neap tide, Dinh An and Co Chien (the two deeper channels) experience a much higher strati\ufb01cation than Tran De and Cung Hau, while the narrower and shallower Dai and Tieu channels have more continuous SWI patterns.",
-        "Match":"YES"
+        "Question": "What were the implementation and future plans of irrigation works from 2016 to 2020 in Laos?",
+        "Answer": "\nFrom 2016 to 2020, 132 projects out of a total of 165 construction projects were completed, which supply water to a total area of 13,057 ha in the rainy season and 9,592 ha in the dry season. Lao PDR developed the Five-year Irrigation Development Plan 2021\u20132025 (Department of Irrigation, 2021) to enhance integrated water resources management in irrigation systems. Lao PDR will conduct feasibility studies and introduce modern technologies into the system to supply water to 284,800 ha of farmlands in the rainy season and 170,000 ha in the dry season. The Plan focuses on the seven large plains: Vientiane Plain, Bolikhamxay Plain, Xebangfai Plain, Xebanghieng Plain, Sedon Plain, Champasak Plain, Attapeu Plain, and North Plain as well as mountainous areas. To implement this Plan, Lao PDR will mainly: (i) rehabilitate the irrigation structures; (ii) enhance resilience against floods and drought; (iii) build capacity for WUAs; and (iv) expand irrigated areas.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How much water does a laundry machine use per day?",
-        "Answer":"\n400 gpd per machine.",
-        "Match":"YES"
+        "Question": "What measures can be taken to increase the water storage capacity of reservoirs and ponds?",
+        "Answer": "\nMeasures that can be taken to increase the water storage capacity of reservoirs and ponds include lowering the water level before heavy rain, removing sediments, clearing mud and debris from canals, removing weeds from canal banks, preventive maintenance, quality construction, canal lining, and reservoir improvements.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How can cracks on a canal wall affect the efficiency of irrigation systems?",
-        "Answer":"\nCracks on a canal wall can reduce the efficiency of irrigation systems by allowing water to leak out, reducing the amount of water available for irrigation. Additionally, cracks can weaken the structure of the canal wall, making it more susceptible to damage from flood water pressure, which can further reduce the efficiency of the irrigation system.",
-        "Match":"NO"
+        "Question": "How can spectral reflectance of remote sensing images be used to observe soil contamination?",
+        "Answer": "\nSpectral reflectance of remote sensing images can be used to observe soil contamination by analyzing the differences in color, texture, shape, and other characteristics of the land cover. This can be done by transforming multiple bands into a single index that is more sensitive to soil salinity than a single band. Additionally, indices derived from satellite imagery can be compared to in situ data to assess the salinity of the soil.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the components of the advanced model for water saving?",
-        "Answer":"\nThe components of the advanced model for water saving are: (1) System level - Main canals lined by concrete, Secondary\/tertial canals or pipelines, Telemetry monitoring (TM) and telemetry control system (TC), and Land consolidation; (2) Field level - Automatic irrigation installed into all farmlands.",
-        "Match":"YES"
+        "Question": "Explain the Incremental Increase Method and how it combines the Arithmetical and Geometrical Increase Methods.",
+        "Answer": "\nThe Incremental Increase Method combines the Arithmetical Increase Method and the Geometrical Increase Method to project population growth. This method uses the formula Pn = P + n(la + lc), where Pn represents the future population after \u2018n\u2019 number of decades, P is the population of the previous decade, n is the number of decades, la is the average population increase per decade, and lc represents the average incremental increase per decade. The Arithmetical Increase Method assumes that the population changes at a constant rate over time, while the Geometrical Increase Method assumes that the population changes at a constant percentage each decade. The Incremental Increase Method combines these two methods by taking the average population increase per decade and the average incremental increase per decade into account when calculating the future population.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the main causes of saltwater intrusion in the coastal areas of the North Central region?",
-        "Answer":"\nThe main causes of saltwater intrusion in the coastal areas of the North Central region are sea level rise, changes in rainfall, and groundwater withdrawal rates. These can cause saltwater to enter the groundwater, reducing the availability of freshwater for coastal regions. Droughts can also cause aquifers to be recharged with saltwater, and excessive pumping of groundwater can interfere with the zone of dispersion and allow for the movement of seawater into freshwater aquifers.",
-        "Match":"YES"
+        "Question": "How would the cost of the pipeline be distributed among Dania Beach's population?",
+        "Answer": "\nThe cost of the pipeline would be distributed among Dania Beach's population by charging each person an additional $45.97 per month over a 30-year time period. This cost breaks down to $119.52 per household per month. Currently, Dania Beach charges a base cost of $14.55 and an additional $2.98/1000 gallons per month for water and debt service. If the average person uses 120 GPD and the average household is 2.6 people, the average monthly water bill is estimated to be $42.44. Adding $119.52 to each household bill would increase this bill to $161.96. Constructing a pipeline would create an average water bill increase of 282%.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does saltwater intrusion affect groundwater and water quality?",
-        "Answer":"\nSaltwater intrusion affects groundwater and water quality by reducing the availability of freshwater for coastal regions and increasing the salt concentration of the groundwater to levels that are too high for human use and consumption. Saltwater intrusion can be caused by sea level rise, changes in rainfall, and excessive groundwater withdrawal.",
-        "Match":"YES"
+        "Question": "How does the growth rate of the U.S. population impact water resources, as shown in the data from MacroTrends.com?",
+        "Answer": "\nThe decreasing growth rate of the U.S. population impacts water resources by reducing the amount of water available for consumption. As the population growth rate decreases, the demand for water also decreases, resulting in less water being used for drinking, bathing, and other activities. This can lead to water shortages in certain areas, as well as an overall decrease in water quality. Additionally, a decrease in population growth can lead to a decrease in the amount of wastewater produced, which can reduce the amount of pollution in water sources.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"How does the averaged SI measurement in Figure 10 reflect the soil conditions from November 2015 to April 2016?",
-        "Answer":"\nThe averaged SI measurement in Figure 10 reflects the average soil salinity conditions from November 2015 to April 2016. The Pearson correlation coefficients in Table 9 show that the constructed SI is strongly correlated with the in situ data, indicating that the SI is a reliable measure of soil salinity.",
-        "Match":"YES"
+        "Question": "How did the researchers transform conductivity and temperature measurements into salinity values?",
+        "Answer": "\nThe researchers transformed conductivity and temperature measurements into salinity values by constructing a salinity index (SI) based on the distance to the Mekong Delta River (MKD) and the reported salinity border from the Vietnam Meteorological and Hydrological Department. They then compared the constructed SI with salinity data of 184 in situ water- and soil samples collected across farm areas in April 2016 by Can Tho University to find Pearson correlation coefficients of about 0.4 between SI and ground truth data in logarithm.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Why is saltwater corrosive, especially to older and more porous buildings?",
-        "Answer":"\nSaltwater is corrosive because it contains high levels of salt, which can cause metal to corrode and weaken over time. Saltwater is especially corrosive to older and more porous buildings because the salt can seep into the building's structure and cause the metal to corrode faster. The salt can also cause the building's materials to become brittle and break down more quickly.",
-        "Match":"YES"
+        "Question": "What is the cost of a mole drain per 10 are in Japan?",
+        "Answer": "\n800 JPY/10 are",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How can the operation of water supply projects for aquaculture be improved near the coast?",
-        "Answer":"\nNear the coast, water supply projects for aquaculture can be improved by applying and transferring technologies for collecting, storing, and treating water onsite to serve the population's daily needs during periods of drought, water scarcity, or saltwater intrusion. Additionally, solutions such as building, repairing, and upgrading irrigation dams and reservoirs, improving the existing hydraulic structures, applying water-saving irrigation technologies, expanding irrigated areas under dry crops, and prioritizing supplying water for the population's daily needs should be considered. Finally, surveying and evaluating groundwater reserves and formulating plans on rational exploitation, protection, and adding groundwater sources can help improve the operation of water supply projects for aquaculture near the coast.",
-        "Match":"YES"
+        "Question": "How can upgrading infrastructure systems contribute to increased productivity and efficiency in agricultural production?",
+        "Answer": "\nUpgrading infrastructure systems can contribute to increased productivity and efficiency in agricultural production by providing more efficient methods of irrigation, such as the Farm-Oriented Enhancing Aquatic System (FOEAS), which can increase yields by up to 12% for rice, 42% for wheat, and 40% for soybeans. Additionally, FOEAS can reduce labor hours for water management from 31 to 3 hours. Other infrastructure upgrades, such as land consolidation and pipeline systems, can also improve drainage capacity and provide more efficient methods of water delivery, such as automatic water supply and drain systems that can be controlled with a smartphone or computer.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the spatial discretization method used in the Delft3D-FM model?",
-        "Answer":"\nThe spatial discretization method used in the Delft3D-FM model is a finite-volume conservation formulation of mass, momentum, turbulence, salinity, temperature, and conservative matter in an orthogonally unstructured staggered-grid discretization.",
-        "Match":"YES"
+        "Question": "How have rapid changes in land use and hydrology transformed agriculture and subsistence living in the Mekong Delta?",
+        "Answer": "\nRapid changes in land use and hydrology have transformed agriculture and subsistence living in the Mekong Delta in a variety of ways. These changes have led to increased salinization of the delta, increased erosion of the coastal areas, and changes in the availability of water resources. These changes have had a significant impact on the livelihoods of people living in the delta, as well as on the agricultural production of the region. For example, increased salinization has led to reduced crop yields, while changes in water availability have led to increased water scarcity and competition for resources. Additionally, changes in land use have led to increased flooding and other natural disasters, which have further impacted the livelihoods of people living in the delta.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the purpose of schedule management in construction management?",
-        "Answer":"\nThe purpose of schedule management in construction management is to control and check the progress of works for completing the construction within the work period.",
-        "Match":"YES"
+        "Question": "How does groundwater exploitation and the dry and rainy seasons affect the qp 1 and n 22 aquifers?",
+        "Answer": "\nGroundwater exploitation in the qp 1 and n 22 aquifers is affected by the dry and rainy seasons. During the dry season, the water levels in these aquifers tend to be lower due to increased demand for water, leading to increased groundwater extraction. During the rainy season, the water levels in these aquifers tend to be higher due to increased precipitation, leading to decreased groundwater extraction.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the procedure for seasonal irrigation planning as shown in Figure 32?",
-        "Answer":"\nThe procedure for seasonal irrigation planning as shown in Figure 32 is: \n1. Investigating water requirement and available water resources: Collect information on the crop types, irrigation area, and the cultivation timing by interviewing farmers and local governments, and referring to past records. Examine the past water requirements if available. Collect information on the capacity of dams and reservoirs, and past meteorological data, etc.\n2. Drafting a seasonal irrigation plan: Draft a seasonal irrigation plan based on available water resources and water requirements.\n3. Approving the seasonal irrigation plan: Organize meetings on the seasonal irrigation plan with farmers and obtain their approval.\n4. Detailing the seasonal irrigation plan: Scrutinize the approved seasonal irrigation plan for practical application. Decide irrigation areas and periods of sub-irrigation under secondary and\/or tertiary canals.\n5. Announcing the plan: Inform farmers of the seasonal irrigation plan so that they can prepare for the coming season.",
-        "Match":"YES"
+        "Question": "How can water be saved with Alternate Wetting Drying (AWD) in rice cultivation?",
+        "Answer": "\nWater can be saved with Alternate Wetting Drying (AWD) in rice cultivation by reducing irrigation water consumption without decreasing yield, reducing the number of pumping and its cost, and increasing grain production. AWD can also reduce greenhouse gas emissions, methylmercury and total arsenic concentration in rice grain, and the generation of methane.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the title of the chapter in the book \"Challenges to sustainable development in the Mekong Delta: Regional and national policy issues and research needs\" that discusses flood and salinity management in the Mekong Delta, Vietnam?",
-        "Answer":"\n\"Flood and Salinity Management in the Mekong Delta, Vietnam: Challenges and Opportunities for Sustainable Development\"",
-        "Match":"NO"
+        "Question": "How can the lifetime of irrigation facilities be prolonged through preventive maintenance?",
+        "Answer": "\nPreventive maintenance can prolong the lifetime of irrigation facilities by regularly conducting maintenance, inspections, and examinations of the degree of deterioration. When necessary, repairs should be made before the function of the structures goes below the allowable level. This is more cost-effective than reconstruction and can help to extend the lifespan of the irrigation structures.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the current trend in crop cultivation in the Mekong Delta region?",
-        "Answer":"\nThe current trend in crop cultivation in the Mekong Delta region is an increase in the production area of rice, from 52% to 91%, due to flood control measures, advancements in fertiliser use, implementation of mechanisation, and the adoption of high yielding rice varieties. Additionally, farmers are exploring alternative crops such as maize, soybean, quinoa, and cowpea to replace dry season rice, as well as management practices such as mulching, raised beds, and soil water monitoring to decrease salinity stress and improve water use efficiency.",
-        "Match":"YES"
+        "Question": "What are the correlations between electrical conductivity (EC 1:5) and spectral reflectance at different bands of the Landsat 8 OLI image shown in Figure 6?",
+        "Answer": "\nThe correlations between electrical conductivity (EC 1:5) and spectral reflectance at different bands of the Landsat 8 OLI image shown in Figure 6 are as follows: a weak correlation between EC 1:5and the blue, green, and red bands; a moderate correlation between EC 1:5and the NIR band; and a strong correlation between EC 1:5and the SWIR1 band.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How did the floods impact water supply schemes in central Vietnam?",
-        "Answer":"\nThe floods caused significant damage to water supply schemes in central Vietnam, including damage to canals, weirs, access to roads to irrigation headworks, and drainage culverts and sluices. The estimated damages of irrigation and flood control was VND 973,585 (Government of Vietnam, 2016).",
-        "Match":"YES"
+        "Question": "What is causing sediment starvation in the delta and how is it related to upstream dams and downstream sand mining?",
+        "Answer": "\nSediment starvation in the delta is caused by a combination of upstream dams and downstream sand mining. Upstream dams reduce the amount of sediment that is able to flow downstream, while downstream sand mining removes sediment from the riverbed, further reducing the amount of sediment available to the delta. This combination of upstream dams and downstream sand mining has resulted in a decrease in sediment supply to the delta, leading to sediment starvation.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How is the Standardized Precipitation Index (SPI) used to assess drought in Fars Province, Iran?",
-        "Answer":"\nIn Fars Province, Iran, the Standardized Precipitation Index (SPI) is used to assess drought by classifying drought indicators into 10 hazard classes of moisture and drought, such as very slight, slight, moderate, severe, and extreme drought. The SPI values for different drought conditions are determined using a threshold of -0.25, which signifies the onset of drought conditions. The Mann\u2013Kendall test and Sen\u2019s slope test are used to estimate the SPI trend and the magnitude of the slope, respectively. Additionally, the SPI is used to examine drought characteristics such as drought frequency, length, and severity, as well as probability analysis.",
-        "Match":"YES"
+        "Question": "Why do wildfires pose a significant threat to the environment?",
+        "Answer": "\nWildfires pose a significant threat to the environment because they can cause destruction of entire communities, damage or destruction of structures, and loss of life. Additionally, the increased frequency and intensity of wildfires is due to both human activity and the environment becoming hotter and drier because of climate change, creating ideal conditions for wildfires to spread.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Explain the components of the hydrological cycle shown in Figure 3.",
-        "Answer":"\nThe components of the hydrological cycle shown in Figure 3 include precipitation, groundwater flow, and infiltration. Precipitation is the main source of water for aquifers, and it is the main method by which aquifers are recharged. Groundwater flow is the movement of water through the ground, and infiltration is the process of water entering the ground from nearby water bodies. These three components are essential for keeping a balance of input and outputs in the hydrologic cycle.",
-        "Match":"YES"
+        "Question": "What is the purpose of recording daily maintenance, regular inspection, and rehabilitation in a database?",
+        "Answer": "\nThe purpose of recording daily maintenance, regular inspection, and rehabilitation in a database is to enable governments and WUAs to easily understand the degree of deterioration, predict its progress, and decide on the rehabilitation timing and methods.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the limitations of the model calibration in this study?",
-        "Answer":"\nThe limitations of the model calibration in this study are: \n1. Interpolation of unregistered extraction wells with an increase in annual growth of 2.5% from 2011 to 2019. \n2. Transient calibration phase is from January 2011 to December 2019. \n3. Reduced information base of groundwater monitoring data for the period January 2011 to December 2019.",
-        "Match":"YES"
+        "Question": "What are the main causes of saltwater intrusion in Miami-Dade County?",
+        "Answer": "\nThe main causes of saltwater intrusion in Miami-Dade County are sea level rise, increased storm surge, and changes in groundwater flow patterns due to human activities such as pumping and development.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What are the potential impacts of upstream hydropower dams and climate change on the hydrodynamics of the Vietnamese Mekong Delta?",
-        "Answer":"\nThe potential impacts of upstream hydropower dams and climate change on the hydrodynamics of the Vietnamese Mekong Delta include reduced rainfall, increased droughts, disruptions of floodwater, and accelerated saltwater intrusion. These impacts can lead to changes in sediment transport and morphodynamics, as well as decreased water resources for agricultural production.",
-        "Match":"YES"
+        "Question": "What geological events led to the formation of the former Mekong basin?",
+        "Answer": "\nThe former Mekong basin was formed due to the uplift of the Himalaya and the resulting high erosion rates, which caused a high sediment supply that was deposited in the basin. This process occurred during the late Neogene, comprising the Miocene and Pliocene epochs.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the salinity variation impact the estuaries and coasts in the given context?",
-        "Answer":"\nThe salinity variation in estuaries and coasts can have a significant impact on the environment, human health, and marine and vegetation species. High salinity can be hazardous for many marine and vegetation species that have limited tolerance to salinity, and can cause plant stress and mortality. In addition, high salinity can contaminate drinking water and be a leading cause for hypertension. Furthermore, salt intrusion during low flows and under strong tidal conditions can affect domestic water usage for millions of people. Climate change can exacerbate these effects, as it can lead to increased river discharge, estuary shape changes, and tidal and wave forcing.",
-        "Match":"YES"
+        "Question": "What data was collected for the model calibration in Tra Vinh province?",
+        "Answer": "\nData collected for the model calibration in Tra Vinh province included rainfall, temperature, humidity, evapotranspiration, and salinity.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"How many desalination plants are currently located in the South Florida Water Management District?",
-        "Answer":"\n26",
-        "Match":"YES"
+        "Question": "How does river discharge and rotation affect net mixing in small-mouth Kelvin number plumes?",
+        "Answer": "\nCole and Hetland (2016) found that river discharge and rotation can affect net mixing in small-mouth Kelvin number plumes by increasing the vertical velocity of the plume and the vertical mixing of the plume. This increased vertical velocity and mixing can lead to a decrease in the net mixing of the plume, as the vertical velocity of the plume is reduced. Additionally, the increased rotation of the plume can lead to an increase in the horizontal velocity of the plume, which can also lead to a decrease in the net mixing of the plume.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How often is the main underdrain set in terms of pitch and depth?",
-        "Answer":"\nThe main underdrain is set every 7.5 m to 10 m pitch and 50 cm to 80 cm below the surface.",
-        "Match":"YES"
+        "Question": "How does saltwater intrusion affect the flow of the river and biodiversity in the delta?",
+        "Answer": "\nSaltwater intrusion affects the flow of the river by reducing the amount of freshwater flowing into the delta, which can lead to a decrease in the amount of water available for human consumption and agricultural use. This can also lead to an increase in salinity levels in the delta, which can be hazardous for many marine and vegetation species that have limited tolerance to salinity. High salinity levels can cause plant stress and mortality, hamper tree production, and create favourable conditions for the development of microbes related to water borne diseases. Saltwater intrusion can also affect the estuarine circulation, which is driven by freshwater flow and tide, and can lead to landward salt transport.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Who are the authors of the book \"Mixing in Inland and Coastal Waters\"?",
-        "Answer":"\nThe authors of the book \"Mixing in Inland and Coastal Waters\" are H.B. Fischer, E.J. List, R.C.Y. Koch, J. Imberger, and N.H. Brooks.",
-        "Match":"YES"
+        "Question": "How does water loss occur in an irrigation system according to the context information?",
+        "Answer": "\nWater loss in an irrigation system occurs due to seepage and leakage from canals, evaporation or evapotranspiration from canals and riparian lands, spillage from canal systems, and drainage from farm plots.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"How does the increase in tidal amplitude affect the spatial salinity distribution in the delta?",
-        "Answer":"\nThe increase in tidal amplitude can have either positive or negative effects on the spatial salinity distribution in the delta, depending on the initial state. Increases of amplitude in river-dominated or low tidal systems can offer several advantages, such as enhancing the mixing in the delta and widening areas of brackish or freshwater. This flow enhancement is beneficial during the low flow periods because it helps to override bathymetric effects that produce asymmetric spatial salinity distribution, leaving large areas with very high salinity. However, in high tide-dominated systems, an increase in tidal amplitude can lead to a decrease in the low salinity areas, freshwater periods and volumes in the delta. Tidal motion can also impose several mechanisms on buoyant inflow, such as enhanced vertical (tidal) mixing, tidal straining and subtidal flow nonlinearities, which can affect the spatial salinity distribution.",
-        "Match":"YES"
+        "Question": "What physical processes were specifically evaluated in order to understand their impact on saltwater intrusion?",
+        "Answer": "\nThe physical processes evaluated in order to understand their impact on saltwater intrusion include hydrological, chemical, biological, and human processes.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the main environmental problem faced by the coastal provinces of the Mekong Delta in Vietnam?",
-        "Answer":"\nThe main environmental problem faced by the coastal provinces of the Mekong Delta in Vietnam is drought and saltwater intrusion.",
-        "Match":"YES"
+        "Question": "What are the initial and running costs associated with an earth canal?",
+        "Answer": "\nThe initial cost of an earth canal is low, while the running cost is high. This is due to the fact that it is vulnerable to floods and can easily be eroded and collapse, requiring more maintenance and rehabilitation than other types of canals.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What is the degree requirement for Bachelor of Science at Worcester Polytechnic Institute?",
-        "Answer":"\nThe degree requirement for a Bachelor of Science at Worcester Polytechnic Institute is to submit a Major Qualifying Project to the faculty in partial fulfillment of the degree requirements.",
-        "Match":"YES"
+        "Question": "What insights can be gained from remote sensing and national statistics about long-term hydrological alterations and agricultural landscapes in the Mekong Delta?",
+        "Answer": "\nFrom remote sensing and national statistics, insights can be gained about the long-term hydrological alterations and agricultural landscapes in the Mekong Delta, such as changes in flow regimes, drought intensity, and climate change impacts on rice productivity. Additionally, insights can be gained about the effects of hydropower developments and irrigation expansions on the hydrological changes, as well as the perceptions and responses of the local community to rising salinity intrusion.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What advantages does the HEC-RAS modeling tool offer for simulating salinity?",
-        "Answer":"\nThe HEC-RAS modeling tool offers several advantages for simulating salinity, including being free software, requiring simple data input, having an easy-to-use interface, and being able to simulate salinity using the module of water quality analysis. It is also useful for making rough estimates of saline intrusion along the estuary axis even during extreme events.",
-        "Match":"YES"
+        "Question": "How does the level of water in the river affect the yield of rice and corn crops?",
+        "Answer": "\nThe level of water in the river can have a significant impact on the yield of rice and corn crops. If the water level is too low, it can lead to drought conditions which can reduce the amount of water available for irrigation and lead to decreased crop yields. On the other hand, if the water level is too high, it can lead to flooding which can damage crops and reduce yields. Additionally, high water levels can lead to salinity intrusion which can also reduce crop yields.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"Why does an earth canal require more maintenance and rehabilitation compared to the other canals?",
-        "Answer":"\nAn earth canal requires more maintenance and rehabilitation compared to the other canals because it is more vulnerable to flood and erosion, and has a lower durability than the other canals. This means that it needs more frequent maintenance and rehabilitation in order to keep it functioning properly.",
-        "Match":"YES"
+        "Question": "What is the relationship between hydropower dams and the shrinking capacity of Tonle Sap Lake in Cambodia?",
+        "Answer": "\nThe relationship between hydropower dams and the shrinking capacity of Tonle Sap Lake in Cambodia is complex. Hydropower dams can reduce the amount of water flowing into the lake, which can lead to a decrease in the lake's capacity. Additionally, dams can also reduce the amount of sediment flowing into the lake, which can further reduce the lake's capacity. Furthermore, dams can also cause changes in the water levels of the lake, which can also lead to a decrease in the lake's capacity.",
+        "Answer-Context Match": "NO",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"What is the focus of the Irrigation Policy and Plan in the Mekong Delta?",
-        "Answer":"\nThe focus of the Irrigation Policy and Plan in the Mekong Delta is to enhance and protect crop production by increasing the proportion of irrigated land and improving the productivity of irrigated paddy.",
-        "Match":"YES"
+        "Question": "How much did wheat yields increase with the implementation of the Farm-Oriented Enhancing Aquatic System?",
+        "Answer": "\nWheat yields increased by 40%, from 291 kg/10a to 435 kg/10a, with the implementation of the Farm-Oriented Enhancing Aquatic System.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "NO"
     },
     {
-        "Question":"How would the treatment plants need to adapt to the change in processes if Dania Beach purchases water from Broward County WWS?",
-        "Answer":"\nIf Dania Beach chooses to purchase water from Broward County WWS, the Dania Beach water treatment plants would need to provide corrosion control and disinfection to the water if necessary. This would require the treatment plants to adapt to the change in processes.",
-        "Match":"YES"
+        "Question": "Why is it important to establish well-organized WUAs in order to improve PIM?",
+        "Answer": "\nIt is important to establish well-organized WUAs in order to improve PIM because they provide a framework for members to share common goals, cooperate, ensure management transparency, impose penalties for violations, become financially independent, and develop problem-solving and decision-making abilities. These elements are necessary for the sustainability of an irrigation system and WUAs, and for the successful implementation of PIM.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     },
     {
-        "Question":"What are the key findings of the book \"Last days of the mighty Mekong\"?",
-        "Answer":"\nThe key findings of the book \"Last Days of the Mighty Mekong\" are that the Mekong River Basin is facing a range of environmental and socio-economic challenges due to climate change, unsustainable development, and other human activities. These challenges include increased flooding, reduced water availability, and increased sedimentation. The book also highlights the need for international cooperation to address these issues and outlines potential solutions for managing the Mekong River Basin.",
-        "Match":"NO"
+        "Question": "What is saline intrusion and how does it affect coastal estuarine deltas?",
+        "Answer": "\nSaline intrusion is the process of saltwater entering freshwater systems, such as coastal estuarine deltas. This process can have a significant impact on the environment, as it can reduce the amount of freshwater available for agricultural production, lead to soil salinization, and disrupt the local ecology. In addition, it can also have a negative impact on the livelihoods of local farmers, as it can reduce their access to freshwater and lead to crop/production diversification.",
+        "Answer-Context Match": "YES",
+        "Question-Answer-Context Match": "YES"
     }
 ]
