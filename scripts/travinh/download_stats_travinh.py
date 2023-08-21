@@ -123,6 +123,7 @@ def main():
             lines = reader.readlines()
             for line in lines:
                 url = server + line
+                url = url.strip()
                 extract_table_url(url, args.output_path)
     else:
         url = args.url

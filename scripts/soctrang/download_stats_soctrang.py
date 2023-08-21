@@ -108,18 +108,21 @@ def extract_table_url(url, output_path):
             }
             
             for row in rows[4:]:
-                # sometime there is an extra empty column at the begining of the table                
+                # sometime there is an extra empty column at the begining of the table               
                 print(", ".join(row))
-                dic = {}
-                dic["location"] = row[2]
-                dic["time"] = row[1].replace("h",":")
-                for i in range(1,8):
-                    dic[data_type_vietnamese(i)] = {
-                        "value" : row[i+2].replace(",","."),
-                        "unit"  : data_unit(i),
-                        "name"  : data_type_english(i)
-                    }
-                result["data"].append(dic)
+                if len(row) < 10:
+                    print("-- SKIP ROW")
+                else:
+                    dic = {}
+                    dic["location"] = row[2]
+                    dic["time"] = row[1].replace("h",":")
+                    for i in range(1,8):
+                        dic[data_type_vietnamese(i)] = {
+                            "value" : row[i+2].replace(",","."),
+                            "unit"  : data_unit(i),
+                            "name"  : data_type_english(i)
+                        }
+                    result["data"].append(dic)
                 
         # save result to file
         output_full_path = output_path + "-" + to_us_date(vn_date) + ".json"
@@ -143,6 +146,7 @@ def main():
             lines = reader.readlines()
             for line in lines:
                 url = server + line
+                url = url.strip()
                 print(f"URL: {url}")
                 extract_table_url(url, args.output_path)
     else:
