@@ -60,7 +60,14 @@ def data_unit(id):
 
 def get_date(url):
     ds = url[url.find("Ngay-")+5:len(url)-6]
-    ds = ds[ds.find("-")+1:len(ds)].replace("-","/")
+    separator_count = ds.count('-')
+    if separator_count == 3:
+        ds = ds[ds.find("-")+1:len(ds)].replace("-","/")
+    if separator_count == 2:
+        ds = ds.replace("-","/")
+    if separator_count == 4:
+        ds = ds[ds.find("-")+1:len(ds)]
+        ds = ds[ds.find("-")+1:len(ds)].replace("-","/")
     return ds
 
 def to_us_date(vn_date):
