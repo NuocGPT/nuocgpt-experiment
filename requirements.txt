@@ -1,5 +1,4 @@
 black
-bs4
 Flask
 gunicorn
 jupyter
@@ -8,3 +7,5 @@ openai
 pypdf
 pymongo
 requests
+nltk
+llama_index

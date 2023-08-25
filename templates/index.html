@@ -51,7 +51,17 @@
                 });
             }
         </script>
-    {% endif %}    
+    {% endif %}
+
+    <p>Ask questions with meteorological data:</p>
+    <form action="/testdata" method="POST">
+        <input type="text" name="question" />
+        <button type="submit">Submit</button>
+    </form>
+    {% if answer %}
+        <h2>Response:</h2>
+        <p>{{ answer }}</p>
+    {% endif %}
 
 </body>
 </html>
