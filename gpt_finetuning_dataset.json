@@ -7,23 +7,6 @@
             },
             {
                 "role":"user",
-                "content":"What is the advantage of the Feasible Generalized Least Squares (FGLS) method over Ordinary Least Squares (OLS) in handling heteroscedasticity?"
-            },
-            {
-                "role":"assistant",
-                "content":"FGLS có lợi thế lớn hơn OLS trong việc ước tính các trọng số để khắc phục phương sai thay đổi. FGLS có khả năng tối ưu hóa các trọng số để khắc phục phương sai thay đổi, còn OLS không thể làm điều này."
-            }
-        ]
-    }
-
-    {
-        "messages":[
-            {
-                "role":"system",
-                "content":"You are a Q&A chatbot specializing in saltwater intrusion in the Mekong Delta."
-            },
-            {
-                "role":"user",
                 "content":"What is the significance of the Vam Kenh Station in relation to rice yields in the WS rice cropping season?"
             },
             {
@@ -63,23 +46,6 @@
             {
                 "role":"assistant",
                 "content":"Underground taming of floods for irrigation helps address the challenges of floods and groundwater depletion by diverting high water flows from rivers or canals at times when these flows pose flood risk, and recharging the groundwater via village ponds or small dams that are modified for this purpose. This stored water can then be used for irrigation in the dry season by pumping it, thus helping to reduce the risk of flooding and also providing a reliable source of water for irrigation during times of drought."
-            }
-        ]
-    }
-
-    {
-        "messages":[
-            {
-                "role":"system",
-                "content":"You are a Q&A chatbot specializing in saltwater intrusion in the Mekong Delta."
-            },
-            {
-                "role":"user",
-                "content":"In Figure 17, what is the dark red line representing?"
-            },
-            {
-                "role":"assistant",
-                "content":"The dark red line in Figure 17 is representing the saltwater intrusion line."
             }
         ]
     }
@@ -2183,23 +2149,6 @@
             },
             {
                 "role":"user",
-                "content":"What is the current level of attention given to assessing the salinity of agricultural land in Hau Giang province?"
-            },
-            {
-                "role":"assistant",
-                "content":"Hiện tại, địa bàn tỉnh Hậu Giang đang được quan tâm đặc biệt để đánh giá mức độ mặn của đất nông nghiệp. Nghiên cứu này đã phân tích tình trạng mặn hóa của đất nông nghiệp trên địa bàn tỉnh Hậu Giang bằng phương pháp trọng số đảo ngược khoảng cách (IDW). Kết quả cho thấy, phần trăm của đất nông nghiệp không bị mặn (< 0,25%) tổng cộng là 44,23% của tổng diện tích đất nông nghiệp. Phần trăm của diện tích đất nông nghiệp có mức độ muối tan từ 0,25 - 0,5% chiếm 30,79% của tổng diện tích đất nông nghiệp, chủ yếu tập trung tại huyện Long Mỹ và thị xã Long Mỹ. Với mức độ muối tan từ 0,5 - 0,75%, 24,98% của tổng diện tích đất nông nghiệp bị ảnh hưởng, chủ yếu ở các huyện Phụng Hiệp, Châu Thành, Châu Thành A và Long Mỹ. Mặn hóa đất tại Hậu Giang chủ yếu do xâm nhập nước biển và nước ngầm mặn."
-            }
-        ]
-    }
-
-    {
-        "messages":[
-            {
-                "role":"system",
-                "content":"You are a Q&A chatbot specializing in saltwater intrusion in the Mekong Delta."
-            },
-            {
-                "role":"user",
                 "content":"What are some low-level technologies that can be used to address the issue of drought in irrigation systems?"
             },
             {
@@ -3633,23 +3582,6 @@
             {
                 "role":"assistant",
                 "content":"The crop to be cultivated and its area are determined by estimating the water requirements from crop water requirements, effective rainfall, crop information, and irrigation efficiency. The available water is then allocated to meet each water demand based on seasonal irrigation planning."
-            }
-        ]
-    }
-
-    {
-        "messages":[
-            {
-                "role":"system",
-                "content":"You are a Q&A chatbot specializing in saltwater intrusion in the Mekong Delta."
-            },
-            {
-                "role":"user",
-                "content":"How does the high salt content in irrigation water contribute to land salinization in Hau Giang province?"
-            },
-            {
-                "role":"assistant",
-                "content":"Nồng độ muối cao trong nước tưới có thể gây ra sự mặn hóa đất tại tỉnh Hậu Giang bằng cách làm tăng nồng độ muối trong đất. Nồng độ muối cao trong nước tưới cũng có thể gây ra sự xâm nhập mặn từ nước biển và nước ngầm mặn, đồng thời làm tăng nồng độ muối trong đất. Nồng độ muối cao cũng có thể làm giảm khả năng của cây trồng để hấp thu nước và các chất dinh dưỡng cần thiết, gây ra sự suy giảm hiệu quả nông nghiệp."
             }
         ]
     }
