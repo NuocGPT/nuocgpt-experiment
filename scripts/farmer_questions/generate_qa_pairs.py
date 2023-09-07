@@ -15,7 +15,7 @@ def get_answer(question, model="gpt-4", max_tokens=2000):
 
     response = openai.ChatCompletion.create(
         model=model,
-        messages = messages,
+        messages=messages,
         temperature=0.2,
         max_tokens=max_tokens,
         frequency_penalty=0.0
