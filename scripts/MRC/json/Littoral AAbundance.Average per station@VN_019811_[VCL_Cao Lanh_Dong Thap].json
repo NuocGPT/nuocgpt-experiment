@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VCL_Cao Lanh_Dong Thap",
+    "Station Code": "019811",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "961.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "93.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "110.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "139.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "33.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "35.0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Parameter": "Diatoms AAbundance",
+    "Location": "VCL_Cao Lanh_Dong Thap",
+    "Station Code": "019811",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "162.2"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "116.2"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "373.8"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "461.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "3427.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "1336.0"
+        }
+    ]
+}

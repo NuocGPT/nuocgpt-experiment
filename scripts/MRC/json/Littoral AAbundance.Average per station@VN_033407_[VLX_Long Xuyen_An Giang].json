@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VLX_Long Xuyen_An Giang",
+    "Station Code": "033407",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "19.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "5.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "40.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "90.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "36.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "48.0"
+        }
+    ]
+}

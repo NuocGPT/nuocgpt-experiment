@@ -1,0 +1,32 @@
+{
+    "Parameter": "Bentho AAbundance",
+    "Location": "VLX_Long Xuyen_An Giang",
+    "Station Code": "033407",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "141.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "71.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "70.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "35.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "37.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "46.0"
+        }
+    ]
+}

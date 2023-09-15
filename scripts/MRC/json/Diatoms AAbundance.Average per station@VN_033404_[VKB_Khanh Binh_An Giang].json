@@ -1,0 +1,32 @@
+{
+    "Parameter": "Diatoms AAbundance",
+    "Location": "VKB_Khanh Binh_An Giang",
+    "Station Code": "033404",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "45.8"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "84.4"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "450.2"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "272.2"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "1191.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "1095.0"
+        }
+    ]
+}

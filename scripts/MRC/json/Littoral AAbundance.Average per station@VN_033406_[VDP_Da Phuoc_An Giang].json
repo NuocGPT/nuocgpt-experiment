@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VDP_Da Phuoc_An Giang",
+    "Station Code": "033406",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "106.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "11.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "33.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "51.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "14.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "68.0"
+        }
+    ]
+}

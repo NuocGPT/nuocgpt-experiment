@@ -1,0 +1,32 @@
+{
+    "Parameter": "Diatoms AAbundance",
+    "Location": "VVL_My Thuan_Vinh Long",
+    "Station Code": "019812",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "104.8"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "108.4"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "757.4"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "617.4"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "5128.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "1316.0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Parameter": "Diatoms AAbundance",
+    "Location": "VLX_Long Xuyen_An Giang",
+    "Station Code": "033407",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "125.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "81.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "188.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "471.8"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "996.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "1098.0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VTT_Thuong Thoi_Dong Thap",
+    "Station Code": "019809",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "243.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "192.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "811.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "869.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "204.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "279.0"
+        }
+    ]
+}

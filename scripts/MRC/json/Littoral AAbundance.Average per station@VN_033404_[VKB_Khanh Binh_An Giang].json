@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VKB_Khanh Binh_An Giang",
+    "Station Code": "033404",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "117.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "30.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "769.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "15.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "50.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "35.0"
+        }
+    ]
+}

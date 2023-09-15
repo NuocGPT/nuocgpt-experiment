@@ -1,0 +1,32 @@
+{
+    "Parameter": "Bentho AAbundance",
+    "Location": "VCL_Cao Lanh_Dong Thap",
+    "Station Code": "019811",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "32.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "26.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "103.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "24.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "22.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "9.0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Parameter": "Littoral AAbundance",
+    "Location": "VCT_Phu An_Can Tho",
+    "Station Code": "033408",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "37.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "6.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "54.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "74.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "34.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "13.0"
+        }
+    ]
+}

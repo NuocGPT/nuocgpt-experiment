@@ -1,0 +1,32 @@
+{
+    "Parameter": "Zooplanktons AAbundance",
+    "Location": "VDP_Da Phuoc_An Giang",
+    "Station Code": "033406",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "18.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "61.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "471.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "100.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "26.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "57.0"
+        }
+    ]
+}

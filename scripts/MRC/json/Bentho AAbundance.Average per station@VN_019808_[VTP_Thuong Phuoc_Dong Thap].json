@@ -1,0 +1,32 @@
+{
+    "Parameter": "Bentho AAbundance",
+    "Location": "VTP_Thuong Phuoc_Dong Thap",
+    "Station Code": "019808",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "47.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "6.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "127.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "101.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "141.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "21.0"
+        }
+    ]
+}

@@ -1,0 +1,32 @@
+{
+    "Parameter": "Zooplanktons AAbundance",
+    "Location": "VKB_Khanh Binh_An Giang",
+    "Station Code": "033404",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "56.0"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "490.0"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "439.0"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "12261.0"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "75.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "82.0"
+        }
+    ]
+}

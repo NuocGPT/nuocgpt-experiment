@@ -1,0 +1,32 @@
+{
+    "Parameter": "Diatoms AAbundance",
+    "Location": "VCT_Phu An_Can Tho",
+    "Station Code": "033408",
+    "Unit": "Species Count",
+    "Data": [
+        {
+            "Time": "2011-12-30T17:00Z",
+            "Value": "149.8"
+        },
+        {
+            "Time": "2013-12-30T17:00Z",
+            "Value": "134.4"
+        },
+        {
+            "Time": "2015-12-30T17:00Z",
+            "Value": "288.8"
+        },
+        {
+            "Time": "2017-12-30T17:00Z",
+            "Value": "599.2"
+        },
+        {
+            "Time": "2019-12-30T17:00Z",
+            "Value": "1780.0"
+        },
+        {
+            "Time": "2021-12-30T17:00Z",
+            "Value": "1387.0"
+        }
+    ]
+}
