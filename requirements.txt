@@ -1,5 +1,4 @@
 black
-bs4
 Flask
 gunicorn
 jupyter
@@ -12,3 +11,4 @@ llama-index==0.8.12
 sentence-transformers
 ragas
 boto3
+nltk
