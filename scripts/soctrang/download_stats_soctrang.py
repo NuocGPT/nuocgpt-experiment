@@ -120,15 +120,19 @@ def extract_table_url(url, output_path):
                 if len(row) < 10:
                     print("-- SKIP ROW")
                 else:
+                    base = 1;
+                    if "h" in row[0]:
+                        base = 0
                     dic = {}
-                    dic["location"] = row[2]
-                    dic["time"] = row[1].replace("h",":")
+                    dic["location"] = row[base+1]
+                    dic["time"] = row[base].replace("h",":")
                     for i in range(1,8):
-                        dic[data_type_vietnamese(i)] = {
-                            "value" : row[i+2].replace(",","."),
-                            "unit"  : data_unit(i),
-                            "name"  : data_type_english(i)
-                        }
+                        if(len(row[i+base+1].strip()) > 0):
+                            dic[data_type_vietnamese(i)] = {
+                                "value" : row[i+base+1].replace(",","."),
+                                "unit"  : data_unit(i),
+                                "name"  : data_type_english(i)
+                            }
                     result["data"].append(dic)
                 
         # save result to file

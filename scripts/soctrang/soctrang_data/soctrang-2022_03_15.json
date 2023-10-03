@@ -3,1054 +3,1054 @@
     "datetime_format": "vietnamese",
     "data": [
         {
-            "location": "29,2",
-            "time": "Cầu Trà Niên, ấp Trà Niên, P. K:án: Hòa",
+            "location": "Cầu Trà Niên, ấp Trà Niên, P. Khánh Hòa",
+            "time": "13:30",
             "Nhiệt độ": {
-                "value": "9",
+                "value": "29.2",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.0",
+                "value": "9",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "87",
+                "value": "7.0",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "10",
+                "value": "87",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "2.1",
+                "value": "10",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-1",
+                "value": "2.1",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-1",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "28,7",
-            "time": "Đầu Vàm Trà Niên (điểm giao n:aucủa xã Hòa Đông và Vĩn: Hải)",
+            "location": "Đầu Vàm Trà Niên (điểm giao nhaucủa xã Hòa Đông và Vĩnh Hải)",
+            "time": "12:45",
             "Nhiệt độ": {
-                "value": "13",
+                "value": "28.7",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.5",
+                "value": "13",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.5",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "133",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "5",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "1.8",
+                "value": "5",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-1",
+                "value": "1.8",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-1",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,6",
-            "time": "Kên: Vĩn: C:âu - Cổ Cò",
+            "location": "Kênh Vĩnh Châu - Cổ Cò",
+            "time": "14:00",
             "Nhiệt độ": {
-                "value": "5",
+                "value": "29.6",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "5",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "7.7",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "141",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "2.0",
+                "value": "15",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-3",
+                "value": "2.0",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-3",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,5",
-            "time": "Vàm Trà N:o(xã Vĩn: Hiệp –P.Vĩn: P:ước)",
+            "location": "Vàm Trà Nho(xã Vĩnh Hiệp –P.Vĩnh Phước)",
+            "time": "14:50",
             "Nhiệt độ": {
-                "value": "9",
+                "value": "30.5",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.3",
+                "value": "9",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.3",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "96",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "5",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "5",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.3",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-3",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-3",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,6",
-            "time": "Cống Trà Nõ, xã Vĩn: Tân",
+            "location": "Cống Trà Nõ, xã Vĩnh Tân",
+            "time": "15:10",
             "Nhiệt độ": {
+                "value": "30.6",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "9",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.3",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.3",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "125",
-                "unit": "none",
-                "name": "pH"
+                "unit": "mg/l",
+                "name": "alkalinity"
             },
-            "Độ Kiềm": {
+            "Độ trong": {
                 "value": "35",
-                "unit": "mg/l",
-                "name": "alkalinity"
-            },
-            "Độ trong": {
-                "value": "3.6",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-3",
+                "value": "3.6",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-3",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,0",
-            "time": "Kên: Năm Căn - Lai Hòa, xã Lai Hòa",
+            "location": "Kênh Năm Căn - Lai Hòa, xã Lai Hòa",
+            "time": "08:30",
             "Nhiệt độ": {
+                "value": "29.0",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "11",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "120",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "10",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "10",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.9",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-1",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-1",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,0",
-            "time": "Cống Nop:ol, ấp Nop:ol, xã Vĩn: Tân",
+            "location": "Cống Nophol, ấp Nophol, xã Vĩnh Tân",
+            "time": "09:15",
             "Nhiệt độ": {
-                "value": "13",
+                "value": "29.0",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "13",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "7.5",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "117",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.6",
+                "value": "15",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-1",
+                "value": "3.6",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-1",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,6",
-            "time": "Cầu Treo-Điểm giao n:au của Kên: giữa Hòa Bìn:- Kên: 3 Mạn: Hòa P:uông -Kên: Ngã 3 Tam Hòa (Hòa Tú 2- Hòa Tú I và Gia Hòa 1)",
+            "location": "Cầu Treo-Điểm giao nhau của Kênh giữa Hòa Bình- Kênh 3 Mạnh Hòa Phuông -Kênh Ngã 3 Tam Hòa (Hòa Tú 2- Hòa Tú I và Gia Hòa 1)",
+            "time": "15:25",
             "Nhiệt độ": {
-                "value": "4",
+                "value": "30.6",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.3",
+                "value": "4",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "104",
+                "value": "7.3",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "10",
+                "value": "104",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "10",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "1.6",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-4",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-4",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,7",
-            "time": "Cầu Hòa Lý - Kên: T:ạn: Mỹ,ấp Hòa Lý, xã Ngọc Tố",
+            "location": "Cầu Hòa Lý - Kênh Thạnh Mỹ,ấp Hòa Lý, xã Ngọc Tố",
+            "time": "15:30",
             "Nhiệt độ": {
+                "value": "30.7",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "6",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.4",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "109",
+                "value": "7.4",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "15",
+                "value": "109",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "2.1",
+                "value": "15",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-4",
+                "value": "2.1",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-4",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,9",
-            "time": "Bến p:à Dù T:o(Xã T:am Đôn - xã Ngọc Đông)",
+            "location": "Bến phà Dù Tho(Xã Tham Đôn - xã Ngọc Đông)",
+            "time": "16:00",
             "Nhiệt độ": {
+                "value": "30.9",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "4",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.3",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "97",
+                "value": "7.3",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "20",
+                "value": "97",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "20",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "2.1",
-                "unit": "cm",
-                "name": "transparency"
+                "unit": "mg/l",
+                "name": "oxygen"
             },
-            "Dissolved Oxygen (DO)": {
+            "Độ mặn so với năm trước": {
                 "value": "-4",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29",
-            "time": "Cống Sáu Quế 1, xã Lịc: Hội T:ượng",
+            "location": "Cống Sáu Quế 1, xã Lịch Hội Thượng",
+            "time": "14:10",
             "Nhiệt độ": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "13",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "89",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "10",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.5",
+                "value": "10",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
+                "value": "3.5",
+                "unit": "mg/l",
+                "name": "oxygen"
+            },
+            "Độ mặn so với năm trước": {
                 "value": "-10",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,6",
-            "time": "Cống Tầm Vu, ấp N:à T:ờ, xã Trung Bìn:",
+            "location": "Cống Tầm Vu, ấp Nhà Thờ, xã Trung Bình",
+            "time": "14:25",
             "Nhiệt độ": {
+                "value": "29.6",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "19",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.2",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.2",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "90",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "15",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.6",
-                "unit": "cm",
-                "name": "transparency"
+                "unit": "mg/l",
+                "name": "oxygen"
             },
-            "Dissolved Oxygen (DO)": {
+            "Độ mặn so với năm trước": {
                 "value": "-1",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "31,0",
-            "time": "Cống Xà Mác:, ấp Giồng C:át, xã Liêu Tú",
+            "location": "Cống Xà Mách, ấp Giồng Chát, xã Liêu Tú",
+            "time": "15:15",
             "Nhiệt độ": {
+                "value": "31.0",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "18",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "80",
+                "value": "7.0",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
+                "value": "80",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "Độ trong": {
                 "value": "10",
-                "unit": "mg/l",
-                "name": "alkalinity"
-            },
-            "Độ trong": {
-                "value": "3.7",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
+                "value": "3.7",
+                "unit": "mg/l",
+                "name": "oxygen"
+            },
+            "Độ mặn so với năm trước": {
                 "value": "-3",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "28,8",
-            "time": "Vàm Ông Tám, xã An T:ạn: 3",
+            "location": "Vàm Ông Tám, xã An Thạnh 3",
+            "time": "13:10",
             "Nhiệt độ": {
+                "value": "28.8",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "5",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.2",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.2",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "75",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "20",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.7",
+                "value": "20",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
+                "value": "3.7",
+                "unit": "mg/l",
+                "name": "oxygen"
+            },
+            "Độ mặn so với năm trước": {
                 "value": "-2",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,0",
-            "time": "Bến đò Nông trường 30/4, xã An T:ạn: Nam",
+            "location": "Bến đò Nông trường 30/4, xã An Thạnh Nam",
+            "time": "15:30",
             "Nhiệt độ": {
+                "value": "29.0",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "8",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.4",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.4",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "77",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "25",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.5",
+                "value": "25",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
+                "value": "3.5",
+                "unit": "mg/l",
+                "name": "oxygen"
+            },
+            "Độ mặn so với năm trước": {
                 "value": "-8",
-                "unit": "mg/l",
-                "name": "oxygen"
-            },
-            "Độ mặn so với năm trước": {
-                "value": "",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "28,7",
-            "time": "Bến đò Đại Ngãi",
+            "location": "Bến đò Đại Ngãi",
+            "time": "16:30",
             "Nhiệt độ": {
-                "value": "1",
+                "value": "28.7",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.2",
+                "value": "1",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.2",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "62",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "20",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "20",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.7",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "28,6",
-            "time": "Kên: Tài công , P4, TP ST",
+            "location": "Kênh Tài công , P4, TP ST",
+            "time": "17:30",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "28.6",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.3",
+                "value": "0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.3",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "64",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "15",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.4",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,4",
-            "time": "Ngã tư Mỹ P:ước",
+            "location": "Ngã tư Mỹ Phước",
+            "time": "15:15",
             "Nhiệt độ": {
-                "value": "2",
+                "value": "29.4",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "2",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "6.8",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "92",
-                "unit": "none",
-                "name": "pH"
+                "unit": "mg/l",
+                "name": "alkalinity"
             },
-            "Độ Kiềm": {
+            "Độ trong": {
                 "value": "20",
-                "unit": "mg/l",
-                "name": "alkalinity"
+                "unit": "cm",
+                "name": "transparency"
             },
-            "Độ trong": {
+            "Dissolved Oxygen (DO)": {
                 "value": "1.8",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,1",
-            "time": "Kên: xáng Rạc: G",
+            "location": "Kênh xáng Rạch G",
+            "time": "15:30",
             "Nhiệt độ": {
+                "value": "29.1",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "2",
-                "unit": "celcius",
-                "name": "temperature"
-            },
-            "Độ mặn": {
-                "value": "7.2",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.2",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "104",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "15",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "2.0",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,8",
-            "time": "Kên: P:ú Cường",
+            "location": "Kênh Phú Cường",
+            "time": "14:45",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "29.8",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.0",
+                "value": "0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
+                "value": "7.0",
+                "unit": "none",
+                "name": "pH"
+            },
+            "Độ Kiềm": {
                 "value": "80",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "15",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "15",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "3.5",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,5",
-            "time": "Tuyến sông Hậu t:uộc xã An Lạc Tây",
+            "location": "Tuyến sông Hậu thuộc xã An Lạc Tây",
+            "time": "08:50",
             "Nhiệt độ": {
+                "value": "29.5",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Độ mặn": {
                 "value": "1",
-                "unit": "celcius",
-                "name": "temperature"
+                "unit": "0/00",
+                "name": "salinity"
             },
-            "Độ mặn": {
+            "pH": {
                 "value": "7.3",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "101",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "25",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "25",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "2.4",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,3",
-            "time": "Tuyến sông Hậu t:uộc xã P:ong Nẫm",
+            "location": "Tuyến sông Hậu thuộc xã Phong Nẫm",
+            "time": "08:15",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "29.3",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "7.2",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "97",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "25",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "25",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "2.3",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "29,9",
-            "time": "Tuyến sông Hậu t:uộc xã N:ơn Mỹ",
+            "location": "Tuyến sông Hậu thuộc xã Nhơn Mỹ",
+            "time": "09:15",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "29.9",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "7.4",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "109",
-                "unit": "none",
-                "name": "pH"
-            },
-            "Độ Kiềm": {
-                "value": "25",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
+                "value": "25",
+                "unit": "cm",
+                "name": "transparency"
+            },
+            "Dissolved Oxygen (DO)": {
                 "value": "2.8",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,9",
-            "time": "Cống T:ạn: Trị, T:ị trấn P:ú Lộc",
+            "location": "Cống Thạnh Trị, Thị trấn Phú Lộc",
+            "time": "16:20",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "30.9",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "6.9",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "87",
-                "unit": "none",
-                "name": "pH"
+                "unit": "mg/l",
+                "name": "alkalinity"
             },
-            "Độ Kiềm": {
+            "Độ trong": {
                 "value": "30",
-                "unit": "mg/l",
-                "name": "alkalinity"
+                "unit": "cm",
+                "name": "transparency"
             },
-            "Độ trong": {
+            "Dissolved Oxygen (DO)": {
                 "value": "2.2",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,6",
-            "time": "Cầu Nàng Rền, xã C:âu Hưng",
+            "location": "Cầu Nàng Rền, xã Châu Hưng",
+            "time": "16:55",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "30.6",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "6.7",
-                "unit": "0/00",
-                "name": "salinity"
+                "unit": "none",
+                "name": "pH"
             },
-            "pH": {
+            "Độ Kiềm": {
                 "value": "69",
-                "unit": "none",
-                "name": "pH"
+                "unit": "mg/l",
+                "name": "alkalinity"
             },
-            "Độ Kiềm": {
+            "Độ trong": {
                 "value": "25",
-                "unit": "mg/l",
-                "name": "alkalinity"
+                "unit": "cm",
+                "name": "transparency"
             },
-            "Độ trong": {
+            "Dissolved Oxygen (DO)": {
                 "value": "1.2",
-                "unit": "cm",
-                "name": "transparency"
-            },
-            "Dissolved Oxygen (DO)": {
-                "value": "-",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "30,7",
-            "time": "Cầu Tân Long, xã Tân Long",
+            "location": "Cầu Tân Long, xã Tân Long",
+            "time": "15:00",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "30.7",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
+                "value": "0",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "pH": {
                 "value": "7.0",
-                "unit": "0/00",
-                "name": "salinity"
-            },
-            "pH": {
-                "value": "40",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "15",
+                "value": "40",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.0",
+                "value": "15",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-",
+                "value": "3.0",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
         },
         {
-            "location": "31,0",
-            "time": "Cầu Nàng Rền - Vĩn: Biên",
+            "location": "Cầu Nàng Rền - Vĩnh Biên",
+            "time": "15:40",
             "Nhiệt độ": {
-                "value": "0",
+                "value": "31.0",
                 "unit": "celcius",
                 "name": "temperature"
             },
             "Độ mặn": {
-                "value": "7.1",
+                "value": "0",
                 "unit": "0/00",
                 "name": "salinity"
             },
             "pH": {
-                "value": "55",
+                "value": "7.1",
                 "unit": "none",
                 "name": "pH"
             },
             "Độ Kiềm": {
-                "value": "15",
+                "value": "55",
                 "unit": "mg/l",
                 "name": "alkalinity"
             },
             "Độ trong": {
-                "value": "3.2",
+                "value": "15",
                 "unit": "cm",
                 "name": "transparency"
             },
             "Dissolved Oxygen (DO)": {
-                "value": "-",
+                "value": "3.2",
                 "unit": "mg/l",
                 "name": "oxygen"
             },
             "Độ mặn so với năm trước": {
-                "value": "",
+                "value": "-",
                 "unit": "+-",
                 "name": "salinity comparison to previous year"
             }
