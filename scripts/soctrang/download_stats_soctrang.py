@@ -9,13 +9,13 @@ processed_urls = []
 
 def data_type_vietnamese(id):
     if id == 1:
-        return "Nhiệt độ"
+        return "Nhiệt độ nước"
     if id == 2:
         return "Độ mặn"
     if id == 3:
         return "pH"
     if id == 4:
-        return "Độ Kiềm"
+        return "Kiềm"
     if id == 5:
         return "Độ trong"
     if id == 6:

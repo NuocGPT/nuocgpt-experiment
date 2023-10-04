@@ -5,7 +5,7 @@
         {
             "location": "Cầu Trà Niên, ấp Trà Niên, P. Khánh Hòa",
             "time": "10:30",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "27.1",
                 "unit": "celcius",
                 "name": "temperature"
@@ -20,7 +20,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "94",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -44,7 +44,7 @@
         {
             "location": "Đầu Vàm Trà Niên (điểm giao nhaucủa xã Hòa Đông và Vĩnh Hải)",
             "time": "10:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "27.4",
                 "unit": "celcius",
                 "name": "temperature"
@@ -59,7 +59,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "156",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -83,7 +83,7 @@
         {
             "location": "Kênh Vĩnh Châu - Cổ Cò",
             "time": "11:15",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "27.5",
                 "unit": "celcius",
                 "name": "temperature"
@@ -98,7 +98,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "72",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -122,7 +122,7 @@
         {
             "location": "Vàm Trà Nho(xã Vĩnh Hiệp - xã Vĩnh Phước)",
             "time": "08:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "30.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -137,7 +137,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "101",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -161,7 +161,7 @@
         {
             "location": "Cống Trà Nõ, xã Vĩnh Tân",
             "time": "08:30",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "30.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -176,7 +176,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "91",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -200,7 +200,7 @@
         {
             "location": "Kênh Năm Căn - Lai Hòa, xã Lai Hòa",
             "time": "14:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "31.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -215,7 +215,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "120",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -239,7 +239,7 @@
         {
             "location": "Cống Nophol, ấp Nophol, xã Vĩnh Tân",
             "time": "14:30",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "30.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -254,7 +254,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "131",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -278,7 +278,7 @@
         {
             "location": "Bến phà Chàng Ré(xã Thạnh Phú - xã Gia Hòa 1)",
             "time": "08:05",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "29.9",
                 "unit": "celcius",
                 "name": "temperature"
@@ -293,7 +293,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "58",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -317,7 +317,7 @@
         {
             "location": "Cầu Treo-Điểm giao nhau của Kênh giữa Hòa Bình- Kênh 3 Mạnh Hòa Phuông -Kênh Ngã 3 Tam Hòa (Hòa Tú 2- Hòa Tú I và Gia Hòa 1)",
             "time": "08:25",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "29.2",
                 "unit": "celcius",
                 "name": "temperature"
@@ -332,7 +332,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "71",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -356,7 +356,7 @@
         {
             "location": "Cầu Hòa Lý - Kênh Thạnh Mỹ,ấp Hòa Lý, xã Ngọc Tố",
             "time": "11:20",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "30.5",
                 "unit": "celcius",
                 "name": "temperature"
@@ -371,7 +371,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "78",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -395,7 +395,7 @@
         {
             "location": "Bến phà Dù Tho(Xã Tham Đôn - xã Ngọc Đông)",
             "time": "10:45",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "30.3",
                 "unit": "celcius",
                 "name": "temperature"
@@ -410,7 +410,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "73",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -434,7 +434,7 @@
         {
             "location": "Cống Sáu Quế 1, xã Lịch Hội Thượng",
             "time": "09:15",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "29.5",
                 "unit": "celcius",
                 "name": "temperature"
@@ -449,7 +449,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "91",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -473,7 +473,7 @@
         {
             "location": "Cống Tầm Vu, ấp Nhà Thờ, xã Trung Bình",
             "time": "08:45",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "29.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -488,7 +488,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "82",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -512,7 +512,7 @@
         {
             "location": "Cống Xà Mách, ấp Giồng Chát, xã Liêu Tú",
             "time": "10:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "29.5",
                 "unit": "celcius",
                 "name": "temperature"
@@ -527,7 +527,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "93",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -551,7 +551,7 @@
         {
             "location": "Vàm Ông Tám, xã An Thạnh 3",
             "time": "15:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "28.2",
                 "unit": "celcius",
                 "name": "temperature"
@@ -566,7 +566,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "45",
                 "unit": "mg/l",
                 "name": "alkalinity"
@@ -590,7 +590,7 @@
         {
             "location": "Bến đò Nông trường 30/4,xã An Thạnh Nam",
             "time": "16:00",
-            "Nhiệt độ": {
+            "Nhiệt độ nước": {
                 "value": "28.0",
                 "unit": "celcius",
                 "name": "temperature"
@@ -605,7 +605,7 @@
                 "unit": "none",
                 "name": "pH"
             },
-            "Độ Kiềm": {
+            "Kiềm": {
                 "value": "50",
                 "unit": "mg/l",
                 "name": "alkalinity"
