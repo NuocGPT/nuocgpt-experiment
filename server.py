@@ -3,11 +3,13 @@ NuocGPT main server class
 """
 
 import os
+from pathlib import Path
+import json
 from flask import Flask, request, jsonify, render_template
 import openai
 from openai.error import ServiceUnavailableError
 from pymongo import MongoClient, errors
-from llama_index import StorageContext, load_index_from_storage
+from llama_index import StorageContext, load_index_from_storage, download_loader, GPTSimpleKeywordTableIndex
 
 
 app = Flask(__name__)
@@ -18,7 +20,7 @@ SYSTEM_INSTRUCTION = f"You are NuocGPT, a conversational AI designed to answer q
                      f" issues in Vietnam. You can only answer questions in Vietnamese or English. You will not" \
                      f" comment or answer any questions related to these topics: {TOPICS}."
 GPT3 = "gpt-3.5-turbo"
-GPT4 = "gpt-4"
+GPT4 = "gpt-3.5-turbo"
 
 
 @app.route("/")
@@ -122,6 +124,7 @@ def chat():
     original_question = user_message
 
     # Call the OpenAI API to get a response
+
     try:
         print(user_message)
 
@@ -166,7 +169,8 @@ def chat():
     except ServiceUnavailableError:
         return render_template(
             "index.html",
-            response="I am sorry but it seems that OpenAI API is not avaiable at the current moment. Please try"
+            response="I am sorry but it seems that OpenAI API is not \
+            avaiable at the current moment. Please try"
                      " again later.",
         )
 
@@ -189,11 +193,55 @@ def feedback():
     }
     collection.insert_one(feedback_data)
 
-    print("Data received:", feedback_data)  # Add this line to print the data
-
+    print("Data received:", feedback_data)
     # Return a response to the client (optional)
     return jsonify({"message": "Feedback received"})
 
+#Post request using given data
+
+
+def init_query_engine(param):
+    json_reader = download_loader("JSONReader")
+    loader = json_reader()
+    documents = loader.load_data(Path('./data/testing.json'))
+
+    index = GPTSimpleKeywordTableIndex.from_documents(documents)
+    query_engine = index.as_query_engine()
+
+    param.index = index
+    param.query_engine = query_engine
+
+
+init_query_engine(app)
+
+@app.route("/testdata", methods=["POST"])
+def testdata():
+    """
+    Responds based on data we use
+    """
+    question = request.form.get("question")
+    response = app.query_engine.query(question)
+
+    messages = [
+        {"role": "system", "content": f"This is additional context from our database \
+            {response}; you can reply on them for answering user question."},
+        {"role": "user", "content": str(question)},
+    ]
+
+    response = openai.ChatCompletion.create(
+        model=GPT4,
+        messages=messages,
+        max_tokens=1000,
+        temperature=0.7,
+        n=1,
+        stop=None,
+    )
+    # Extract the response text from the API response
+    print(response)
+    assistant_response = response["choices"][0]["message"]["content"].strip(
+    )
+
+    return json.dumps({"question": question, "response": assistant_response})
 
 def init_openai_key():
     openai.api_key = os.environ.get("OPENAI_API_KEY")

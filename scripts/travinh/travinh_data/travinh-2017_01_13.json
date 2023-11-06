@@ -1,0 +1,369 @@
+{
+    "data": [
+        {
+            "location": "Sông Hiệp Mỹ - Cầu Ngang (gần cầu Hiệp Mỹ)",
+            "Độ mặn(‰)": {
+                "value": "6",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "8.0",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Không nhiễm",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Cống Thâu Râu – Cầu Ngang",
+            "Độ mặn(‰)": {
+                "value": "7",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "8.0",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Không nhiễm",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Cống Ba Diệp – Thạnh Hòa Sơn – Cầu Ngang",
+            "Độ mặn(‰)": {
+                "value": "5",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "7.5",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "27",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Không nhiễm",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Vàm Trà Kha – Định An – Trà Cú",
+            "Độ mặn(‰)": {
+                "value": "2",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "7.5",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Cảng Định An – Trà Cú",
+            "Độ mặn(‰)": {
+                "value": "3",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "8.0",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Cống Đại An – Trà Cú",
+            "Độ mặn(‰)": {
+                "value": "1",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "8.5",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Sông Long Toàn – Duyên Hải (gần cầu Long Toàn)",
+            "Độ mặn(‰)": {
+                "value": "",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Không nhiễm",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Sông Láng Chim – Duyên Hải (Bến phà Láng Chim)",
+            "Độ mặn(‰)": {
+                "value": "17",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "8.0",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "90",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "30",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Cầu Kênh Đào – Long Vĩnh – Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "13",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "7.5",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "107",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "29",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Nhiễm bệnh",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Bến đò Phước Thiện – Đông Hải – Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "15",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "7.5",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "72",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "26",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        },
+        {
+            "location": "Vàm Láng Nước – Hiệp Thạnh – Duyên Hải",
+            "Độ mặn(‰)": {
+                "value": "",
+                "unit": "0/00",
+                "name": "salinity"
+            },
+            "Ph": {
+                "value": "",
+                "unit": "unknown",
+                "name": "unknown"
+            },
+            "Kiềm(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "alkalinity"
+            },
+            "NH4/NH3(mg/l)": {
+                "value": "",
+                "unit": "mg/l",
+                "name": "NH4/NH3"
+            },
+            "Nhiệt độ (0C)": {
+                "value": "",
+                "unit": "celcius",
+                "name": "temperature"
+            },
+            "Virus gây bệnhđốm trắng": {
+                "value": "Không nhiễm",
+                "unit": "unknown",
+                "name": "unknown"
+            }
+        }
+    ],
+    "date_created": "13/01/2017",
+    "datetime_format": "vietnamese"
+}
