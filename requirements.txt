@@ -12,3 +12,4 @@ sentence-transformers
 ragas
 boto3
 nltk
+ragas==0.0.19
