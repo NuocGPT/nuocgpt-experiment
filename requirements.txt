@@ -13,3 +13,4 @@ ragas
 boto3
 nltk
 ragas==0.0.19
+trulens-eval
