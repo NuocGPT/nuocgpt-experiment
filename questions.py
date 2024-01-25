@@ -45,7 +45,7 @@ formatted_questions = "\n".join("{}. {}".format(i+1, question) for i, question i
 # print(formatted_questions)
 
 # Save to a text file
-with open("questions.txt", "w") as file:
+with open("result/questions.txt", "w") as file:
     file.write(formatted_questions)
 
 
@@ -60,25 +60,3 @@ vector_index = VectorStoreIndex.from_documents(
 # 
 # print(eval_result)
 
-all_results = []
-
-query_engine = vector_index.as_query_engine()
-for question in eval_questions[4:10]:
-    # Generate response for the current question
-    response_vector = query_engine.query(question)
-    
-    # Evaluate the response
-    eval_result = evaluator_gpt4.evaluate_response(query=question, response=response_vector)
-
-    result = {
-        "Question": question,
-        "Response": response_vector,
-        "Evaluation": eval_result
-    }
-    
-    print(eval_result)
-    all_results.append(result)
-    time.sleep(3)
-
-df = pd.DataFrame(all_results)
-df.to_csv("Some questions_and_answers.csv", index=False)
