@@ -3,15 +3,14 @@ import sys
 import pandas as pd
 import time
 
-logging.basicConfig(stream=sys.stdout, level=logging.INFO)
-logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
+# logging.basicConfig(stream=sys.stdout, level=logging.INFO)
+# logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
 from llama_index.evaluation import DatasetGenerator, RelevancyEvaluator
 from llama_index import (
     SimpleDirectoryReader,
     VectorStoreIndex,
     ServiceContext,
-    Response,
 )
 from llama_index.llms import OpenAI
 
@@ -20,8 +19,6 @@ from llama_index.prompts import PromptTemplate
 # gpt-4
 gpt4 = OpenAI(temperature=0, model="gpt-4")
 service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
-
-evaluator_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
 
 text_question_template_str = (
     "Dưới đây là thông tin ngữ cảnh bằng tiếng Việt.\n---------------------\n{context_str}\n---------------------\n"
@@ -41,22 +38,6 @@ eval_questions = data_generator.generate_questions_from_nodes()
 # Create a formatted string
 formatted_questions = "\n".join("{}. {}".format(i+1, question) for i, question in enumerate(eval_questions))
 
-# Print the formatted questions
-# print(formatted_questions)
-
 # Save to a text file
-with open("result/questions.txt", "w") as file:
+with open("questions.txt", "w") as file:
     file.write(formatted_questions)
-
-
-# create vector index
-vector_index = VectorStoreIndex.from_documents(
-    documents, service_context=service_context_gpt4
-)
-
-# query_engine = vector_index.as_query_engine()
-# response_vector = query_engine.query(eval_questions[3])
-# eval_result = evaluator_gpt4.evaluate_response(query=eval_questions[3], response=response_vector)
-# 
-# print(eval_result)
-
