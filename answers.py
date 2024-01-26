@@ -10,14 +10,11 @@ from llama_index import (
     SimpleDirectoryReader,
     VectorStoreIndex,
     ServiceContext,
-    Response,
 )
 from llama_index.llms import OpenAI
 
 gpt4 = OpenAI(temperature=0, model="gpt-4")
 service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
-
-# evaluator_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
 
 questions = []
 

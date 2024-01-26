@@ -1,15 +1,12 @@
-import logging
-import sys
-import pandas as pd
-import time
-
+# import logging
+# import sys
+#
 # logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 # logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
-from llama_index.evaluation import DatasetGenerator, RelevancyEvaluator
+from llama_index.evaluation import DatasetGenerator
 from llama_index import (
     SimpleDirectoryReader,
-    VectorStoreIndex,
     ServiceContext,
 )
 from llama_index.llms import OpenAI
@@ -31,7 +28,7 @@ text_question_template = PromptTemplate(text_question_template_str)
 reader = SimpleDirectoryReader("./data/")
 documents = reader.load_data()
 
-data_generator = DatasetGenerator.from_documents(documents, text_question_template=text_question_template)
+data_generator = DatasetGenerator.from_documents(documents, text_question_template=text_question_template, num_questions_per_chunk=2)
 
 eval_questions = data_generator.generate_questions_from_nodes()
 
