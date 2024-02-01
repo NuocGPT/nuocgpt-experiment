@@ -14,6 +14,7 @@ from llama_index import (
 from llama_index.llms import OpenAI
 
 gpt4 = OpenAI(temperature=0, model="gpt-4")
+# llm = OpenAI(temperature=0.3, model="gpt-3.5-turbo")
 service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
 
 questions = []
