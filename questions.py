@@ -31,6 +31,7 @@ documents = reader.load_data()
 
 data_generator = DatasetGenerator.from_documents(
     documents=documents,
+    text_question_template=text_question_template,
     service_context=service_context_gpt4,
     text_question_template=text_question_template,
     num_questions_per_chunk=2
