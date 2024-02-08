@@ -33,15 +33,23 @@ vector_index = VectorStoreIndex.from_documents(
     documents, service_context=service_context_gpt4
 )
 
-responses= []
+responses = []
+source_nodes_contents = [] 
 
 query_engine = vector_index.as_query_engine()
 for question in questions:
     # Generate response for the current question
     response_vector = query_engine.query(question)
-    
-    responses.append(response_vector)
+    responses.append(response_vector.response)
 
+    # Generate the context for later evaluation
+    current_source_contents = []
+    for source_node in response_vector.source_nodes:
+        current_source_contents.append(source_node.get_content())
+    
+    source_nodes_contents.append(current_source_contents)
+
+    
 # Generate QA file in prettier format
 with open("questions_and_responses.txt", "w") as file:
     for i, (question, response) in enumerate(zip(questions, responses), 1):

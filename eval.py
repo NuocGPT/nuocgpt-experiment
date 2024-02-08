@@ -18,9 +18,9 @@ from llama_index.evaluation import (
 )
 
 # gpt-4
-# gpt4 = OpenAI(temperature=0, model="gpt-4")
-llm = OpenAI(temperature=0.3, model="gpt-3.5-turbo")
-service_context_gpt4 = ServiceContext.from_defaults(llm=llm)
+gpt4 = OpenAI(temperature=0, model="gpt-4")
+# llm = OpenAI(temperature=0.3, model="gpt-3.5-turbo")
+service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
 
 faithfulness_gpt4 = FaithfulnessEvaluator(service_context=service_context_gpt4)
 relevancy_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
@@ -44,6 +44,7 @@ runner = BatchEvalRunner(
     workers=8,
 )
 
+
 questions = []
 
 with open("questions.txt", "r") as file:
@@ -52,17 +53,17 @@ with open("questions.txt", "r") as file:
         question = line.split('. ', 1)[-1].strip()
         questions.append(question)
         
-from answers import responses
+from answers import (responses, source_nodes_contents)
 
-eval_results = runner.evaluate_queries(
-    vector_index.as_query_engine(),
+eval_results = runner.evaluate_response_strs(
     queries=questions, 
-    responses=responses,
+    response_strs=responses,
+    contexts_list=source_nodes_contents,
 )
 
 data = {
     "Question": questions,
-    "Response Faithfulness": [eval_results["faithfulness"][i].response for i in range(len(questions))],
+    "Response": responses,
     "Evaluation Faithfulness": [eval_results["faithfulness"][i].feedback for i in range(len(questions))],
     "Evaluation Relevancy": [eval_results["relevancy"][i].feedback for i in range(len(questions))],
     "Evaluation Correctness": [eval_results["correctness"][i].feedback for i in range(len(questions))]
