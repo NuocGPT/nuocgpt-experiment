@@ -14,9 +14,9 @@ from llama_index.llms import OpenAI
 from llama_index.prompts import PromptTemplate
 
 # gpt-4
-llm = OpenAI(temperature=0.3, model="gpt-3.5-turbo")
-service_context = ServiceContext.from_defaults(llm=llm)
-# service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
+gpt4 = OpenAI(temperature=0, model="gpt-4")
+# service_context = ServiceContext.from_defaults(llm=llm)
+service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
 
 text_question_template_str = (
     "Dưới đây là thông tin ngữ cảnh bằng tiếng Việt.\n---------------------\n{context_str}\n---------------------\n"
@@ -31,17 +31,17 @@ documents = reader.load_data()
 
 data_generator = DatasetGenerator.from_documents(
     documents=documents,
-    service_context=service_context,
+    service_context=service_context_gpt4,
     num_questions_per_chunk=2
 )
 
 eval_questions = data_generator.generate_questions_from_nodes()
 
 # Create a formatted string
-# formatted_questions = "\n".join("{}. {}".format(i+1, question) for i, question in enumerate(eval_questions))
-#
+formatted_questions = "\n".join("{}. {}".format(i+1, question) for i, question in enumerate(eval_questions))
+
 # print(formatted_questions)
 
 # Save to a text file
-# with open("questions.txt", "w") as file:
-#     file.write(formatted_questions)
+with open("questions.txt", "w") as file:
+    file.write(formatted_questions)
