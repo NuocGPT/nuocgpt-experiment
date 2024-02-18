@@ -6,15 +6,33 @@
 
 # from llama_index.evaluation import RelevancyEvaluator
 
+import nest_asyncio
+
+nest_asyncio.apply()
+
+import pandas as pd
+
 from llama_index import (
     SimpleDirectoryReader,
     VectorStoreIndex,
     ServiceContext,
 )
 from llama_index.llms import OpenAI
+from llama_index.evaluation import (
+    FaithfulnessEvaluator,
+    RelevancyEvaluator,
+    CorrectnessEvaluator,
+)
+from llama_index.evaluation import BatchEvalRunner
+
+runner = BatchEvalRunner(
+    {"faithfulness": faithfulness_gpt4,
+     "relevancy": relevancy_gpt4, 
+     "correctness": correctness_gpt4},
+    workers=8,
+)
 
 gpt4 = OpenAI(temperature=0, model="gpt-4")
-# llm = OpenAI(temperature=0.3, model="gpt-3.5-turbo")
 service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
 
 questions = []
@@ -49,8 +67,23 @@ for question in questions:
     
     source_nodes_contents.append(current_source_contents)
 
+eval_results = runner.evaluate_response_strs(
+    queries=questions, 
+    response_strs=responses,
+    contexts_list=source_nodes_contents,
+)
     
-# Generate QA file in prettier format
-with open("questions_and_responses.txt", "w") as file:
-    for i, (question, response) in enumerate(zip(questions, responses), 1):
-        file.write("{}. {}\n- {}\n".format(i, question, response))
+data = {
+    "Question": questions,
+    "Response": responses,
+    "Evaluation Faithfulness": [eval_results["faithfulness"][i].feedback for i in range(len(questions))],
+    "Evaluation Relevancy": [eval_results["relevancy"][i].feedback for i in range(len(questions))],
+    "Evaluation Correctness": [eval_results["correctness"][i].feedback for i in range(len(questions))]
+}
+
+# Create DataFrame
+df = pd.DataFrame(data)
+
+# Export to Excel
+df.to_excel("evaluation_results.xlsx", index=False)
+
