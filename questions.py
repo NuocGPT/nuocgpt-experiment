@@ -26,7 +26,7 @@ text_question_template_str = (
 )
 text_question_template = PromptTemplate(text_question_template_str)
 
-reader = SimpleDirectoryReader("./data/")
+reader = SimpleDirectoryReader("./data/Set_2/")
 documents = reader.load_data()
 
 data_generator = DatasetGenerator.from_documents(

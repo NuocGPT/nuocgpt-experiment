@@ -25,15 +25,19 @@ from llama_index.evaluation import (
 )
 from llama_index.evaluation import BatchEvalRunner
 
+gpt4 = OpenAI(temperature=0, model="gpt-4")
+service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
+
+faithfulness_gpt4 = FaithfulnessEvaluator(service_context=service_context_gpt4)
+relevancy_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
+correctness_gpt4 = CorrectnessEvaluator(service_context=service_context_gpt4)
+
 runner = BatchEvalRunner(
     {"faithfulness": faithfulness_gpt4,
      "relevancy": relevancy_gpt4, 
      "correctness": correctness_gpt4},
     workers=8,
 )
-
-gpt4 = OpenAI(temperature=0, model="gpt-4")
-service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
 
 questions = []
 
@@ -43,7 +47,8 @@ with open("questions.txt", "r") as file:
         question = line.split('. ', 1)[-1].strip()
         questions.append(question)
 
-reader = SimpleDirectoryReader("./data/")
+questions = questions[240:]
+reader = SimpleDirectoryReader("./data/Set_2/")
 documents = reader.load_data()
 
 # create vector index
@@ -81,9 +86,13 @@ data = {
     "Evaluation Correctness": [eval_results["correctness"][i].feedback for i in range(len(questions))]
 }
 
-# Create DataFrame
 df = pd.DataFrame(data)
 
+existing_df = pd.read_excel("evaluation_results.xlsx")
+    
+updated_df = pd.concat([existing_df, df], ignore_index=True)
+
 # Export to Excel
-df.to_excel("evaluation_results.xlsx", index=False)
+updated_df.to_excel("evaluation_results.xlsx", index=False)
+
 
