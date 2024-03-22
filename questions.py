@@ -4,15 +4,20 @@
 # logging.basicConfig(stream=sys.stdout, level=logging.INFO)
 # logging.getLogger().addHandler(logging.StreamHandler(stream=sys.stdout))
 
-from llama_index.evaluation import DatasetGenerator
-from llama_index import (
-    SimpleDirectoryReader,
-    ServiceContext,
-)
-from llama_index.llms import OpenAI
-from llama_index.llms.gemini import Gemini
+# from llama_index.legacy.evaluation import DatasetGenerator
+# from llama_index.legacy import (
+#     SimpleDirectoryReader,
+#     ServiceContext,
+# )
+# from llama_index.legacy.llms import OpenAI
+#
+# from llama_index.legacy.prompts import PromptTemplate
 
-from llama_index.prompts import PromptTemplate
+from llama_index.core.evaluation import DatasetGenerator 
+from llama_index.core import SimpleDirectoryReader
+from llama_index.llms.openai import OpenAI
+from llama_index.llms.gemini import Gemini
+from llama_index.core.prompts import PromptTemplate
 
 # gpt-4
 gpt4 = OpenAI(temperature=0, model="gpt-4")
@@ -20,7 +25,8 @@ gpt4 = OpenAI(temperature=0, model="gpt-4")
 
 # Gemini
 gemini = Gemini()
-service_context = ServiceContext.from_defaults(llm=gpt4)
+# service_context = ServiceContext.from_defaults(llm=gpt4)
+
 
 text_question_template_str = (
     "Dưới đây là thông tin ngữ cảnh bằng tiếng Việt.\n---------------------\n{context_str}\n---------------------\n"
@@ -35,10 +41,9 @@ documents = reader.load_data()
 
 data_generator = DatasetGenerator.from_documents(
     documents=documents,
-    text_question_template=text_question_template,
-    service_context=service_context,
-    # service_context=service_context_gpt4,
-    num_questions_per_chunk=2
+    # text_question_template=text_question_template,
+    # service_context=service_context,
+    # num_questions_per_chunk=2
 )
 
 eval_questions = data_generator.generate_questions_from_nodes()
