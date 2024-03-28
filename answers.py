@@ -12,49 +12,62 @@ nest_asyncio.apply()
 
 import pandas as pd
 
-from llama_index import (
+from llama_index.core import (
     SimpleDirectoryReader,
     VectorStoreIndex,
-    ServiceContext,
+    Settings,
 )
-from llama_index.llms import OpenAI
-from llama_index.evaluation import (
+    
+from llama_index.core.evaluation import (
     FaithfulnessEvaluator,
     RelevancyEvaluator,
     CorrectnessEvaluator,
+    BatchEvalRunner,
 )
-from llama_index.evaluation import BatchEvalRunner
+    
+from llama_index.llms.openai import OpenAI
+from llama_index.embeddings.openai import OpenAIEmbedding
+from llama_index.llms.gemini import Gemini
+from llama_index.embeddings.gemini import GeminiEmbedding
 
 gpt4 = OpenAI(temperature=0, model="gpt-4")
-service_context_gpt4 = ServiceContext.from_defaults(llm=gpt4)
+openai_embed_model = OpenAIEmbedding(model='text-embedding-3-small')
 
-faithfulness_gpt4 = FaithfulnessEvaluator(service_context=service_context_gpt4)
-relevancy_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
-correctness_gpt4 = CorrectnessEvaluator(service_context=service_context_gpt4)
+gemini=Gemini(models='gemini-pro')
+gemini_embed_model = GeminiEmbedding(model_name="models/embedding-001")
+
+Settings.llm = gemini
+Settings.embed_model = gemini_embed_model
+
+# faithfulness_gpt4 = FaithfulnessEvaluator(service_context=service_context_gpt4)
+# relevancy_gpt4 = RelevancyEvaluator(service_context=service_context_gpt4)
+# correctness_gpt4 = CorrectnessEvaluator(service_context=service_context_gpt4)
+
+faithfulness_gemini = FaithfulnessEvaluator(llm=gemini)
+relevancy_gemini = RelevancyEvaluator(llm=gemini)
+correctness_gemini = CorrectnessEvaluator(llm=gemini)
 
 runner = BatchEvalRunner(
-    {"faithfulness": faithfulness_gpt4,
-     "relevancy": relevancy_gpt4, 
-     "correctness": correctness_gpt4},
+    {"faithfulness": faithfulness_gemini,
+     "relevancy": relevancy_gemini, 
+     "correctness": correctness_gemini},
     workers=8,
 )
 
 questions = []
 
-with open("questions.txt", "r") as file:
+with open("questions_gemini.txt", "r") as file:
     for line in file:
         # Remove the numbering and strip leading/trailing whitespace
         question = line.split('. ', 1)[-1].strip()
         questions.append(question)
 
-questions = questions[240:]
-reader = SimpleDirectoryReader("./data/Set_2/")
+questions = questions[18:20]
+reader = SimpleDirectoryReader("./data/Set_1/")
 documents = reader.load_data()
 
 # create vector index
-vector_index = VectorStoreIndex.from_documents(
-    documents, service_context=service_context_gpt4
-)
+vector_index = VectorStoreIndex.from_documents(documents)
 
 responses = []
 source_nodes_contents = [] 
@@ -86,13 +99,17 @@ data = {
     "Evaluation Correctness": [eval_results["correctness"][i].feedback for i in range(len(questions))]
 }
 
-df = pd.DataFrame(data)
+# df = pd.DataFrame(data)
 
-existing_df = pd.read_excel("evaluation_results.xlsx")
+# existing_df = pd.read_excel("evaluation_results_gemini_3.xlsx")
     
-updated_df = pd.concat([existing_df, df], ignore_index=True)
+# updated_df = pd.concat([existing_df, df], ignore_index=True)
 
 # Export to Excel
-updated_df.to_excel("evaluation_results.xlsx", index=False)
+# updated_df.to_excel("evaluation_results_gemini_3.xlsx", index=False)
+# df.to_excel("evaluation_results_gemini_3.xlsx", index=False)
+
+print(responses)
+
 
 

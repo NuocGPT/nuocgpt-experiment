@@ -21,4 +21,4 @@ query_engine=index.as_query_engine()
 
 response=query_engine.query("Theo nghiên cứu, cá tra có khả năng thích ứng như thế nào khi gặp phải tình trạng xâm nhập mặn?")
 
-print(response.response)
+print(doc)
