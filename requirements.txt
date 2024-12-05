@@ -7,5 +7,10 @@ openai
 pypdf
 pymongo
 requests
+llama-index==0.8.12
+sentence-transformers
+ragas
+boto3
 nltk
-llama_index
+ragas==0.0.19
+trulens-eval
